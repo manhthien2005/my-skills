@@ -1,0 +1,21 @@
+{
+  "name": "my-skills",
+  "owner": {
+    "name": "manhthien2005"
+  },
+  "metadata": {
+    "description": "Personal Agent Skills collection for OpenAI Codex, Claude Code, Google Antigravity, and compatible AI coding agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "aphrodite-slide",
+      "description": "Create beautiful Vietnamese or English presentation slides from documents, research, data, or a brief.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/aphrodite-slide"
+      ]
+    }
+  ]
+}

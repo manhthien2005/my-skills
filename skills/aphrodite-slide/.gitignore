@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+output/
+build/
+.venv/
+legacy/
+.DS_Store

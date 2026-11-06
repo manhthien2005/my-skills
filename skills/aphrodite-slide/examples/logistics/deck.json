@@ -1,0 +1,21 @@
+{
+  "title": "Điều phối container: so sánh hai phương án",
+  "audience": "Sinh viên Logistics, giảng viên và nhóm nghiên cứu",
+  "takeaway": "Cần cân bằng mức độ ưu tiên và tổng số đơn được phục vụ.",
+  "duration_minutes": 8,
+  "language": "vi",
+  "brand": "PERSONAL SLIDE STUDIO · DEMO",
+  "theme": "editorial-cream",
+  "demo": true,
+  "slides": [
+    {"id":"intro","type":"cover","eyebrow":"LOGISTICS · BẢN DEMO","title":"Điều phối xe container","subtitle":"Một bài toán, hai mục tiêu: ưu tiên đơn khẩn cấp và tối đa số đơn. Tất cả số liệu chỉ để minh họa."},
+    {"id":"problem","type":"statement","eyebrow":"01 / VẤN ĐỀ","title":"Cùng một đội xe, hai mục tiêu có thể tạo ra hai kế hoạch khác nhau","subtitle":"Kế hoạch tối đa số đơn chưa chắc phục vụ được tất cả đơn khẩn cấp.","note":"Tình huống giả lập, không đại diện cho doanh nghiệp cụ thể."},
+    {"id":"context","type":"metrics","eyebrow":"02 / DỮ LIỆU MẪU","title":"Bài toán mẫu gồm 10 đơn và 8 xe","subtitle":"Đây là bộ dữ liệu giả lập nhằm giải thích cách so sánh phương án.","items":[{"value":"10","label":"Đơn vận chuyển","detail":"Các yêu cầu có thời gian giao khác nhau"},{"value":"08","label":"Xe container","detail":"Một tập đội xe cố định"},{"value":"03","label":"Đơn khẩn cấp","detail":"Nhóm ưu tiên cần lưu ý"}]},
+    {"id":"flow","type":"process","eyebrow":"03 / QUY TRÌNH","title":"Dữ liệu được kiểm tra trước khi phân xe","steps":[{"title":"Nhận đơn","detail":"Tiếp nhận thời gian, điểm lấy và giao"},{"title":"Kiểm tra","detail":"Đối chiếu xe, cont, điều kiện"},{"title":"Đề xuất","detail":"Tạo và so sánh phương án"},{"title":"Phê duyệt","detail":"Nhân viên rà soát và quyết định"}]},
+    {"id":"options","type":"comparison","eyebrow":"04 / SO SÁNH","title":"Phương án A và B tối ưu theo mục tiêu khác nhau","left":{"title":"A — Ưu tiên khẩn cấp","bullets":["Phục vụ 8/10 đơn","Giữ đủ 3/3 đơn khẩn cấp","Thích hợp khi ưu tiên mức độ phục vụ"]},"right":{"title":"B — Tối đa số đơn","bullets":["Phục vụ 9/10 đơn","Chỉ còn 2/3 đơn khẩn cấp","Cần cảnh báo đơn ưu tiên bị bỏ"]}},
+    {"id":"chart","type":"chart","eyebrow":"05 / SỐ LIỆU","title":"Phương án B phục vụ nhiều hơn một đơn","subtitle":"Số đơn có thể phục vụ trong tình huống mô phỏng.","chart_type":"bar","data":[{"label":"A","value":8},{"label":"B","value":9}],"caption":"Không suy diễn rằng kết quả demo sẽ lặp lại với dữ liệu vận hành thực tế."},
+    {"id":"timeline","type":"timeline","eyebrow":"06 / TRIỂN KHAI","title":"Đề xuất triển khai theo bốn bước kiểm soát","items":[{"date":"01","title":"Chuẩn hóa","detail":"Rà soát cấu trúc đơn hàng và xe"},{"date":"02","title":"Thử nghiệm","detail":"Dùng dữ liệu đã ẩn thông tin nhạy cảm"},{"date":"03","title":"Đánh giá","detail":"So sánh KPI theo mục tiêu"},{"date":"04","title":"Mở rộng","detail":"Đề xuất áp dụng sau kiểm chứng"}]},
+    {"id":"takeaways","type":"summary","eyebrow":"07 / KẾT LUẬN","title":"Ba điều cần ghi nhớ","bullets":["Tiêu chí tối ưu phải được công bố rõ ràng","Các đơn khẩn cấp cần cảnh báo riêng","Kết quả mô phỏng chưa chứng minh hiệu quả thực tế"]},
+    {"id":"end","type":"closing","eyebrow":"KẾT THÚC","title":"Cảm ơn","subtitle":"Demo Personal Slide Studio V1 · Dữ liệu giả lập · HTML / PDF / PPTX beta"}
+  ]
+}

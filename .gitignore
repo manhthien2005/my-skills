@@ -13,6 +13,11 @@ skills/*/output/
 skills/*/build/
 skills/*/legacy/
 
+# Unlicensed / local original archives (do not redistribute)
+slide-kit.zip
+slide-kit/
+*slide-kit*
+
 # OS / Editor
 .DS_Store
 Thumbs.db
