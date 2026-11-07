@@ -1,0 +1,110 @@
+{
+  "spec_version": 2,
+  "title": "Aegis Edge — Kiểm thử bảo mật API ngay trên máy lập trình viên",
+  "audience": "Trưởng nhóm kỹ thuật, kỹ sư backend và chuyên gia bảo mật ứng dụng",
+  "purpose": "Giới thiệu sản phẩm phiên bản 1.0 và mời đăng ký dùng thử nội bộ",
+  "takeaway": "Aegis Edge phát hiện lỗi phân quyền API trong 8 giây ngay trước khi mở pull request mà không gửi mã nguồn hay dữ liệu thử nghiệm lên đám mây.",
+  "language": "vi",
+  "template": "tech-product",
+  "theme": "keynote-night",
+  "animation": "cinematic",
+  "density": "speaker",
+  "build": true,
+  "brand": "AEGIS EDGE · PRODUCT DEMO",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Ra mắt sản phẩm mẫu · 2026",
+      "title": "Bắt lỗi phân quyền API **trước khi code rời máy bạn**",
+      "subtitle": "Aegis Edge kiểm thử bảo mật ngữ nghĩa cục bộ trong 8 giây — không đám mây, không rò rỉ mã nguồn.",
+      "meta": ["Phiên bản: 1.0 RC", "Nền tảng: Linux · macOS · Windows", "Kiến trúc: 100% Offline"]
+    },
+    {
+      "id": "shift-left",
+      "layout": "problem-solution",
+      "eyebrow": "Bài toán AppSec",
+      "title": "Đưa kiểm thử phân quyền từ cuối quý về ngay trước mỗi commit",
+      "problem": {
+        "title": "Quét muộn trên staging",
+        "points": [
+          "Lỗi lộ dữ liệu chéo tài khoản chỉ lộ diện sát ngày phát hành",
+          "Công cụ SaaS đòi mở cổng mạng hoặc gửi payload nhạy cảm ra ngoài",
+          "Quét tĩnh báo hàng trăm cảnh báo giả khiến kỹ sư bỏ qua"
+        ]
+      },
+      "solution": {
+        "title": "Aegis Edge trên máy cục bộ",
+        "points": [
+          "Đọc trực tiếp thay đổi git diff và đồ thị route ngay khi lưu file",
+          "Tự chạy kịch bản gọi chéo quyền trong sandbox cô lập",
+          "Chỉ báo lỗi khi có cặp request/response tái hiện chính xác"
+        ]
+      }
+    },
+    {
+      "id": "pipeline",
+      "layout": "process",
+      "eyebrow": "Cơ chế hoạt động",
+      "title": "Bốn bước từ git diff đến bằng chứng lỗi có thể tái hiện",
+      "steps": [
+        {"title": "Đọc định tuyến", "detail": "Trích xuất endpoint, schema và middleware xác thực", "icon": "git-branch"},
+        {"title": "Giả lập tác nhân", "detail": "Sinh cặp phiên người dùng hợp lệ và chéo quyền", "icon": "users"},
+        {"title": "Đối chiếu phản hồi", "detail": "Kiểm tra rò rỉ trường nhạy cảm và mã trạng thái", "icon": "lock"},
+        {"title": "Đề xuất bản vá", "detail": "Chỉ rõ dòng thiếu kiểm tra quyền kèm test hồi quy", "icon": "code"}
+      ]
+    },
+    {
+      "id": "cli-demo",
+      "layout": "image-split",
+      "eyebrow": "Trải nghiệm kỹ sư",
+      "title": "Mỗi cảnh báo kèm bằng chứng tái hiện rõ ràng",
+      "subtitle": "Tích hợp trực tiếp vào terminal và trình soạn thảo mà không làm gián đoạn luồng viết code.",
+      "image": "ui-screen.jpg",
+      "image_alt": "Minh họa giao diện kiểm thử bảo mật cục bộ Aegis Edge",
+      "image_credit": "Giao diện sản phẩm mẫu tạo bằng code",
+      "bullets": [
+        "Không gửi mã nguồn, khóa bí mật hay dữ liệu thử ra internet",
+        "Xuất báo cáo chuẩn SARIF cho pipeline CI tự chủ nội bộ",
+        "Hỗ trợ sẵn Go, TypeScript, Python FastAPI và Spring Boot"
+      ]
+    },
+    {
+      "id": "speed-benchmark",
+      "layout": "chart",
+      "eyebrow": "Hiệu năng mô phỏng",
+      "title": "Quét thay đổi cục bộ hoàn tất trong **0,13 phút** (8 giây)",
+      "chart": {
+        "type": "bar",
+        "categories": ["Rà soát thủ công", "Quét DAST staging", "CI toàn bộ repo", "Aegis Edge (diff)"],
+        "series": [{"name": "Thời gian chờ", "values": [45, 18, 4, 0.13]}],
+        "highlight": "Aegis Edge (diff)",
+        "unit": "phút"
+      },
+      "caption": "Thử nghiệm minh họa trên dịch vụ mẫu 40 endpoint, máy trạm 16 GB RAM.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "roadmap",
+      "layout": "timeline",
+      "eyebrow": "Lộ trình phát triển",
+      "title": "Từ công cụ cá nhân đến nền tảng kiểm chuẩn air-gapped",
+      "items": [
+        {"date": "Q2/2026", "title": "Beta kín", "detail": "Thử nghiệm cùng 15 nhóm kỹ sư sản phẩm", "state": "done"},
+        {"date": "Q4/2026", "title": "Phát hành 1.0", "detail": "Hỗ trợ REST, GraphQL và tiện ích IDE", "state": "now"},
+        {"date": "Q1/2027", "title": "Bản Enterprise", "detail": "Chính sách tập trung cho hạ tầng air-gapped", "state": "next"},
+        {"date": "Q3/2027", "title": "Tự sinh test", "detail": "Xuất integration test chuẩn theo ngôn ngữ", "state": "next"}
+      ]
+    },
+    {
+      "id": "cta",
+      "layout": "closing",
+      "eyebrow": "Bắt đầu trong 2 phút",
+      "title": "Chạy thử trên một dịch vụ nội bộ ngay chiều nay",
+      "subtitle": "Một file thực thi duy nhất, không yêu cầu kết nối đám mây hay gửi telemetry.",
+      "meta": ["Lệnh mẫu: aegis scan --diff", "Định dạng: CLI · IDE · SARIF"]
+    }
+  ]
+}
+

@@ -1,0 +1,133 @@
+{
+  "spec_version": 2,
+  "title": "Báo cáo vận hành và biên lợi nhuận chuỗi bán lẻ Q3/2026",
+  "audience": "Ban giám đốc và trưởng khối vận hành - tài chính",
+  "purpose": "Họp đánh giá kết quả quý 3 và chốt ưu tiên ngân sách quý 4",
+  "takeaway": "Doanh thu vượt kế hoạch 5,8% nhưng chi phí giao hàng chặng cuối và hàng hủy tươi sống kéo biên lợi nhuận gộp giảm 1,9 điểm phần trăm; cần gom cụm kho nội thành trong Q4.",
+  "language": "vi",
+  "template": "business-review",
+  "theme": "corporate-premium",
+  "animation": "professional",
+  "density": "reading",
+  "brand": "KHỐI TÀI CHÍNH & VẬN HÀNH · BÁO CÁO MẪU",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Báo cáo điều hành quý · Dữ liệu minh họa",
+      "title": "Kết quả vận hành và **biên lợi nhuận** quý 3/2026",
+      "subtitle": "Doanh thu vượt kế hoạch 5,8% nhưng chi phí giao chặng cuối đang thu hẹp biên lợi nhuận gộp.",
+      "meta": ["Đơn vị: Tài chính & Vận hành", "Kỳ báo cáo: Quý 3/2026", "Trạng thái: Đề xuất quyết định Q4"]
+    },
+    {
+      "id": "kpi-overview",
+      "layout": "kpi-dashboard",
+      "eyebrow": "Bảng chỉ số điều hành",
+      "title": "Doanh thu và tốc độ giao đạt chuẩn, biên gộp giảm 1,9 điểm",
+      "period": "Q3/2026",
+      "items": [
+        {"label": "Doanh thu thuần", "value": "184 tỷ", "delta": "+5,8% KH", "status": "up", "trend": [148, 156, 169, 184], "target": "174 tỷ"},
+        {"label": "Biên LN gộp", "value": "28,4%", "delta": "-1,9 đ", "status": "down", "trend": [30.8, 30.5, 30.3, 28.4], "target": "30,0%"},
+        {"label": "Giao đúng hẹn", "value": "95,2%", "delta": "+1,4 đ", "status": "up", "trend": [92.1, 93.0, 93.8, 95.2], "target": "95,0%"},
+        {"label": "Chi phí giao/đơn", "value": "29.800 đ", "delta": "+12%", "status": "bad", "trend": [24.5, 25.2, 26.6, 29.8], "target": "26.000 đ"},
+        {"label": "Hủy hàng tươi", "value": "4,1%", "delta": "+0,9 đ", "status": "bad", "trend": [3.0, 3.1, 3.2, 4.1], "target": "3,0%"},
+        {"label": "Tồn kho (ngày)", "value": "24", "delta": "-2 ngày", "status": "down", "down_is_good": true, "trend": [28, 27, 26, 24], "target": "25 ngày"}
+      ],
+      "data_status": "illustrative"
+    },
+    {
+      "id": "revenue-trend",
+      "layout": "chart",
+      "eyebrow": "Xu hướng 4 quý",
+      "title": "Doanh thu vượt kế hoạch bốn quý liền nhờ kênh giao nhanh",
+      "chart": {
+        "type": "column",
+        "categories": ["Q4/25", "Q1/26", "Q2/26", "Q3/26"],
+        "series": [
+          {"name": "Thực tế", "values": [148, 156, 169, 184]},
+          {"name": "Kế hoạch", "values": [145, 152, 164, 174]}
+        ],
+        "unit": "tỷ"
+      },
+      "insights": [
+        "Quý 3 vượt kế hoạch 10 tỷ đồng nhờ tăng tần suất đặt hàng thực phẩm tươi trong ngày",
+        "42% đơn giao nhanh có giá trị giỏ hàng dưới 150.000 đ, làm đội chi phí vận chuyển trên mỗi đơn"
+      ],
+      "caption": "Đơn vị: tỷ đồng. Số liệu quản trị mô phỏng phục vụ kiểm thử.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "margin-drivers",
+      "layout": "problem-solution",
+      "eyebrow": "Nguyên nhân & Hướng xử lý",
+      "title": "Gom đơn về kho đệm giải quyết đồng thời phí giao và hao hụt lạnh",
+      "problem": {
+        "title": "Điểm nghẽn hiện tại",
+        "points": [
+          "Đơn online lấy lẻ tại 28 cửa hàng làm tài xế chờ lâu và trùng tuyến",
+          "Mở tủ mát nhặt hàng liên tục khiến tỷ lệ hủy tươi sống tăng lên 4,1%",
+          "Miễn phí giao mọi giỏ hàng từ 99.000 đ làm lỗ phí vận chuyển đơn nhỏ"
+        ]
+      },
+      "solution": {
+        "title": "Cấu trúc vận hành Q4",
+        "points": [
+          "Tách luồng online về 3 kho đệm nội thành có buồng mát đóng gói riêng",
+          "Gộp 3–4 đơn cùng trục đường trong một chuyến xuất kho mỗi 20 phút",
+          "Nâng ngưỡng miễn phí giao lên 180.000 đ kèm combo bữa tối tiện lợi"
+        ]
+      }
+    },
+    {
+      "id": "capex-comparison",
+      "layout": "comparison",
+      "eyebrow": "So sánh phương án đầu tư",
+      "title": "Phương án 3 kho đệm kịp mùa Tết với vốn đầu tư bằng **1/4** kho tổng",
+      "highlight": "left",
+      "left": {
+        "title": "Phương án A · 3 kho đệm",
+        "tag": "Đề xuất Q4",
+        "bullets": [
+          "Đầu tư 4,2 tỷ đồng, vận hành sau 6 tuần",
+          "Giảm ước tính 18% phí giao mỗi đơn nội thành",
+          "Tận dụng mặt bằng sẵn có của 3 cửa hàng lớn"
+        ]
+      },
+      "right": {
+        "title": "Phương án B · 1 kho tổng mới",
+        "bullets": [
+          "Đầu tư 19,5 tỷ đồng, xây lắp mất 7 tháng",
+          "Trễ cao điểm mua sắm Q4/2026 và Tết",
+          "Định phí thuê cao nếu đơn hàng biến động"
+        ]
+      },
+      "verdict": "Triển khai Phương án A trong Q4; xét kho tổng khi vượt 8.000 đơn/ngày."
+    },
+    {
+      "id": "risk-matrix",
+      "layout": "table",
+      "eyebrow": "Quản trị rủi ro chuyển đổi",
+      "title": "Ba rủi ro triển khai quý 4 đã có biện pháp và đầu mối phụ trách",
+      "columns": ["Rủi ro", "Mức độ", "Đầu mối", "Biện pháp kiểm soát"],
+      "highlight": "Biện pháp kiểm soát",
+      "rows": [
+        ["Thiếu tài xế khung 17h–20h", "Cao", "Giao nhận", "Ký hợp đồng dự phòng theo ca với 2 đối tác ngoài"],
+        ["Lệch tồn kho khi tách luồng", "Trung bình", "CNTT", "Thử nghiệm 14 ngày tại cụm Quận 7 trước khi mở rộng"],
+        ["Giảm đơn nhỏ do ngưỡng ship", "Trung bình", "Thương mại", "Tặng gói ưu đãi cuối tuần cho khách hàng định kỳ"]
+      ],
+      "note": "Rà soát tiến độ tại cuộc họp điều hành sáng thứ Hai hàng tuần."
+    },
+    {
+      "id": "decisions",
+      "layout": "key-takeaways",
+      "eyebrow": "Quyết định cần phê duyệt",
+      "title": "Ba hạng mục trình Ban giám đốc thông qua trước ngày 15/10",
+      "bullets": [
+        "Phê duyệt ngân sách 4,2 tỷ đồng cải tạo 3 kho đệm nội thành, mở điểm đầu tiên vào tuần 4 tháng 11",
+        "Thông qua chính sách giỏ hàng miễn phí giao từ 180.000 đ kèm gói combo thực phẩm theo bữa từ 01/11",
+        "Thiết lập báo cáo biên lợi nhuận ròng sau phí giao theo từng cụm kho vào thứ Hai hàng tuần"
+      ]
+    }
+  ]
+}

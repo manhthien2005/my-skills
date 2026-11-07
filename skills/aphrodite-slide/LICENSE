@@ -1,13 +1,13 @@
-MIT License (new Personal Slide Studio files only; excludes vendor/user-slide-kit)
+MIT License
 
-Copyright (c) 2026 Personal Slide Studio contributors
+Copyright (c) 2026 Aphrodite-slide contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of the Studio-original software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including without
-limitation the rights to use, copy, modify, merge, publish, distribute,
-sublicense, and/or sell copies of the Software, and to permit persons to whom
-the Software is furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -20,5 +20,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-EXCLUSION: This grant does not cover vendor/user-slide-kit or any additional
-files originating from another copyright holder. See docs/THIRD-PARTY.md.
+THIRD-PARTY BUNDLED ASSETS:
+- Bundled web fonts under `assets/fonts/` are licensed under the SIL Open Font
+  License 1.1 (see individual license texts in `assets/fonts/licenses/`).
+- Bundled icon glyphs under `assets/icons/` derive from Lucide Icons under the
+  ISC License (see `assets/icons/LICENSE-lucide.txt`).
+- Full provenance and attribution details are documented in `references/THIRD_PARTY.md`.

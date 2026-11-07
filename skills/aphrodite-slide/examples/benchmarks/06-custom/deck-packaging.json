@@ -1,0 +1,70 @@
+{
+  "spec_version": 2,
+  "title": "Lộ trình bao bì tuần hoàn cho chuỗi đồ uống đóng chai",
+  "audience": "Hội đồng phát triển bền vững và giám đốc chuỗi cung ứng",
+  "purpose": "Đề xuất thiết kế phong cách mới và lưu thành template cá nhân tái sử dụng",
+  "takeaway": "Kết hợp giảm định lượng nhựa và phối trộn 50% rPET giúp cắt giảm hơn một nửa nhựa nguyên sinh trên mỗi chai trong mô hình thí điểm.",
+  "language": "vi",
+  "theme": "nordic-forest",
+  "animation": "professional",
+  "density": "speaker",
+  "brand": "SUSTAINABILITY STUDIO · CUSTOM STYLE",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Phong cách thiết kế mới · Nordic Forest",
+      "title": "Bao bì **tuần hoàn** cho chuỗi đồ uống đóng chai",
+      "subtitle": "Lộ trình 18 tháng chuyển sang hạt nhựa tái sinh rPET và thu hồi khép kín tại điểm bán (dữ liệu minh họa).",
+      "meta": ["Đơn vị: Ban Phát triển Bền vững", "Phong cách: Nordic Forest v1.0", "Phạm vi: Thí điểm 30 cửa hàng"]
+    },
+    {
+      "id": "circular-loop",
+      "layout": "diagram",
+      "variant": "cycle",
+      "eyebrow": "Chu trình vật liệu",
+      "title": "Bốn mắt xích khép kín giữ nhựa đạt chuẩn thực phẩm qua nhiều vòng",
+      "center": "Vòng lặp rPET",
+      "nodes": [
+        {"title": "Thiết kế đơn chất", "detail": "Chai PET trong, nắp dính liền thân", "icon": "package"},
+        {"title": "Thu hồi tại quầy", "detail": "Hoàn điểm tự động qua mã QR", "icon": "boxes"},
+        {"title": "Tái sinh chuẩn sạch", "detail": "Rửa nóng và khử nhiễm cấp thực phẩm", "icon": "leaf"},
+        {"title": "Đóng chai vòng mới", "detail": "Phối trộn 50% hạt rPET nội địa", "icon": "award"}
+      ]
+    },
+    {
+      "id": "resin-mix",
+      "layout": "chart",
+      "eyebrow": "Cân bằng vật liệu",
+      "title": "Nhựa nguyên sinh giảm từ **24 g xuống 11 g** trên mỗi chai 500 ml",
+      "chart": {
+        "type": "stacked",
+        "categories": ["Hiện trạng", "Giai đoạn 1", "Giai đoạn 2", "Đích 2027"],
+        "series": [
+          {"name": "Nhựa nguyên sinh", "values": [24, 19, 15, 11]},
+          {"name": "Nhựa tái sinh rPET", "values": [0, 3, 7, 11]}
+        ],
+        "unit": "g"
+      },
+      "insights": [
+        "Tổng khối lượng phôi giảm từ 24 g xuống 22 g nhờ tối ưu gân chịu lực đáy chai",
+        "Tỷ lệ rPET đạt 50% ở đích 2027 mà không đổi dây chuyền chiết rót hiện hữu"
+      ],
+      "caption": "Khối lượng nhựa mỗi chai 500 ml (gam), mô hình kỹ thuật minh họa.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "actions",
+      "layout": "key-takeaways",
+      "eyebrow": "Cam kết triển khai",
+      "title": "Ba bước khởi động thí điểm trong quý tới",
+      "bullets": [
+        "Chuyển toàn bộ chai màu sang PET trong suốt không nhãn PVC để tăng giá trị thu hồi",
+        "Đặt 30 trạm thu hồi tự động tại cụm cửa hàng lưu lượng cao và hoàn điểm ngay trên ứng dụng",
+        "Báo cáo công khai tỷ lệ vỏ chai thu hồi thực tế hàng quý thay vì chỉ nêu thông số lý thuyết"
+      ]
+    }
+  ]
+}
+

@@ -264,8 +264,8 @@ def evidence_levels(s, A, ctx):
         color = mix(th['accent_strong'], th['subtle'], t * 0.75)
         dark_txt = th['bg'] if ctx['theme'].get('scheme') == 'dark' else th['ink']
         txt = '#FFFFFF' if contrast('#FFFFFF', color) >= contrast(dark_txt, color) else dark_txt
-        width = 100 - i * (40 / max(1, n - 1))
-        rows += (f'<div class="level a a-left" style="--i:{A.i + (n - 1 - i)};--w:720px;--c:{color}"><div class="bar" style="width:{width:.0f}%;color:{txt}"><b>{i + 1}</b>{rt(lv.get("label", ""))}</div>'
+        width = 100 - i * (30 / max(1, n - 1))
+        rows += (f'<div class="level a a-left" style="--i:{A.i + (n - 1 - i)};--w:760px;--c:{color}"><div class="bar" style="width:{width:.0f}%;color:{txt}"><b>{i + 1}</b><span>{rt(lv.get("label", ""))}</span></div>'
                  f'<p>{rt(lv.get("detail", ""))}</p></div>')
     A.i += n
     note = f'<p class="tnote">{rt(s["note"])}</p>' if s.get('note') else ''

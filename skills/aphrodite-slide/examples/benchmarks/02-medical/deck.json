@@ -1,0 +1,117 @@
+{
+  "spec_version": 2,
+  "title": "Sàng lọc sớm và kiểm soát tiền đái tháo đường ở người trưởng thành",
+  "audience": "Bác sĩ tuyến cơ sở, điều dưỡng và cán bộ truyền thông sức khỏe",
+  "purpose": "Sinh hoạt chuyên môn 15 phút về phát hiện sớm và can thiệp lối sống",
+  "takeaway": "Sàng lọc định kỳ người có yếu tố nguy cơ kết hợp giảm 5–7% cân nặng và vận động đều đặn giúp làm chậm tiến triển sang đái tháo đường típ 2.",
+  "language": "vi",
+  "template": "medical-briefing",
+  "theme": "clinical-clean",
+  "animation": "subtle",
+  "density": "reading",
+  "brand": "SINH HOẠT CHUYÊN MÔN · MẪU Y KHOA",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Sinh hoạt chuyên môn · Mẫu minh họa",
+      "title": "Sàng lọc sớm và kiểm soát **tiền đái tháo đường** ở người trưởng thành",
+      "subtitle": "Tài liệu mẫu minh họa bố cục truyền thông y tế: phân tầng nguy cơ, can thiệp lối sống và trích dẫn rõ ràng.",
+      "meta": ["Trình bày: BS. Trần Minh H (mẫu)", "Đơn vị: Khoa Nội tổng hợp", "Phạm vi: Đào tạo minh họa"],
+      "notes": "Nhấn mạnh ngay từ đầu: các số liệu biểu đồ trong bản mẫu này là dữ liệu minh họa cấu trúc; thực hành lâm sàng tuân theo hướng dẫn Bộ Y tế."
+    },
+    {
+      "id": "key-message",
+      "layout": "statement",
+      "eyebrow": "Thông điệp lâm sàng",
+      "title": "Phần lớn người **tiền đái tháo đường** không có triệu chứng cơ năng rõ rệt.",
+      "subtitle": "Chờ đến khi khát nhiều, tiểu nhiều hoặc sụt cân mới xét nghiệm sẽ bỏ lỡ giai đoạn can thiệp lối sống hiệu quả nhất.",
+      "note": "Tài liệu đào tạo mẫu — không thay thế chỉ định cá nhân hóa của bác sĩ điều trị."
+    },
+    {
+      "id": "burden",
+      "layout": "metrics",
+      "eyebrow": "Bối cảnh sàng lọc (mô phỏng)",
+      "title": "Ba con số cho thấy khoảng trống phát hiện sớm tại cộng đồng",
+      "items": [
+        {"value": "26%", "label": "rối loạn đường huyết đói", "detail": "Trong mẫu khám sức khỏe mô phỏng"},
+        {"value": "7/10", "label": "phát hiện tình cờ", "detail": "Chưa từng biết mình có nguy cơ"},
+        {"value": "150 ph", "label": "vận động mức vừa/tuần", "detail": "Mức khuyến cáo nền tảng của WHO"}
+      ],
+      "sources": ["WHO Physical Activity Guidelines", "Số liệu sàng lọc: minh họa cấu trúc"],
+      "data_status": "illustrative"
+    },
+    {
+      "id": "mechanism",
+      "layout": "diagram",
+      "variant": "hub",
+      "eyebrow": "Cơ chế bệnh sinh",
+      "title": "Đề kháng insulin và suy giảm tế bào beta tạo vòng xoắn tăng đường huyết",
+      "center": "Tiền ĐTĐ",
+      "nodes": [
+        {"title": "Mô cơ & mỡ", "detail": "Giảm thu nhận glucose khi tích tụ mỡ nội tạng", "icon": "dumbbell"},
+        {"title": "Gan", "detail": "Tăng sản xuất glucose nội sinh vào ban đêm", "icon": "activity"},
+        {"title": "Tế bào beta tụy", "detail": "Tăng tiết bù trừ kéo dài dẫn tới suy giảm", "icon": "flask-conical"},
+        {"title": "Nội mô mạch máu", "detail": "Tăng nguy cơ tim mạch ngay trước khi thành bệnh", "icon": "heart-pulse"}
+      ]
+    },
+    {
+      "id": "risk-groups",
+      "layout": "cards",
+      "eyebrow": "Đối tượng ưu tiên",
+      "title": "Bốn nhóm người trưởng thành cần xét nghiệm sàng lọc định kỳ",
+      "items": [
+        {"title": "Từ 45 tuổi trở lên", "body": "Sàng lọc định kỳ ngay cả khi thể trạng bình thường và chưa có triệu chứng.", "icon": "calendar"},
+        {"title": "Thừa cân, béo bụng", "body": "Ưu tiên cao khi đi kèm tăng huyết áp hoặc rối loạn mỡ máu.", "icon": "gauge"},
+        {"title": "Tiền sử gia đình", "body": "Có cha, mẹ hoặc anh chị em ruột được chẩn đoán đái tháo đường típ 2.", "icon": "users"},
+        {"title": "Đái tháo đường thai kỳ", "body": "Phụ nữ có tiền sử rối loạn dung nạp đường trong thai kỳ cần theo dõi lâu dài.", "icon": "baby"}
+      ],
+      "sources": ["Bộ Y tế Việt Nam", "ADA Standards of Care"]
+    },
+    {
+      "id": "intervention-chart",
+      "layout": "chart",
+      "eyebrow": "So sánh minh họa",
+      "title": "Can thiệp lối sống có theo dõi đạt **tỷ lệ tiến triển thấp nhất**",
+      "chart": {
+        "type": "bar",
+        "categories": ["Không can thiệp", "Tư vấn một lần", "Thuốc hỗ trợ", "Lối sống có theo dõi"],
+        "series": [{"name": "Tiến triển/năm", "values": [11.0, 8.4, 6.2, 4.6]}],
+        "highlight": "Lối sống có theo dõi",
+        "unit": "%"
+      },
+      "caption": "Tỷ lệ chuyển sang ĐTĐ típ 2 mỗi năm trên tập dữ liệu mô phỏng phục vụ đào tạo.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "management-table",
+      "layout": "table",
+      "eyebrow": "Phân tầng xử trí",
+      "title": "Thay đổi lối sống là nền tảng bắt buộc trước mọi chỉ định thuốc",
+      "columns": ["Biện pháp", "Đối tượng áp dụng", "Mục tiêu thực hành", "Vai trò"],
+      "highlight": "Mục tiêu thực hành",
+      "rows": [
+        ["Dinh dưỡng tiết chế", "Mọi người tiền ĐTĐ", "Giảm 5–7% cân nặng nếu thừa cân", "Nền tảng bắt buộc"],
+        ["Vận động thể lực", "Không chống chỉ định", "Tối thiểu 150 phút đi bộ nhanh/tuần", "Khuyến cáo mạnh"],
+        ["Theo dõi HbA1c / FPG", "Toàn bộ nhóm nguy cơ", "Đánh giá lại mỗi 6–12 tháng", "Duy trì tuân thủ"],
+        ["Thuốc hỗ trợ", "Nguy cơ tiến triển rất cao", "Cá thể hóa theo chỉ định bác sĩ", "Bổ trợ có chọn lọc"]
+      ],
+      "note": "Bảng tóm tắt minh họa; chỉ định thuốc cụ thể phải tuân theo hướng dẫn hiện hành của Bộ Y tế.",
+      "sources": ["Bộ Y tế Việt Nam", "ADA Standards of Care"]
+    },
+    {
+      "id": "references",
+      "layout": "references",
+      "eyebrow": "Nguồn dẫn & miễn trừ",
+      "title": "Tài liệu tham khảo và lưu ý chuyên môn",
+      "items": [
+        "Bộ Y tế Việt Nam. Hướng dẫn chẩn đoán và điều trị đái tháo đường típ 2 (bản hiện hành).",
+        "World Health Organization (WHO). Guidelines on physical activity and sedentary behaviour.",
+        "American Diabetes Association (ADA). Standards of Care in Diabetes: Prevention or Delay of Diabetes.",
+        "Miễn trừ trách nhiệm: Bộ slide sử dụng số liệu mô phỏng có gắn nhãn để minh họa chuẩn trình bày y khoa, không dùng làm phác đồ điều trị cá nhân."
+      ]
+    }
+  ]
+}
+

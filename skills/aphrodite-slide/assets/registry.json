@@ -1,0 +1,377 @@
+{
+ "version": 1,
+ "generated_by": "studio.py registry build",
+ "note": "Compact index. Read a template.json only after shortlisting. Private user templates live in ~/.aphrodite-slide/templates and are merged at runtime.",
+ "templates": [
+  {
+   "id": "academic-defense",
+   "name": "Academic Defense",
+   "name_vi": "Bảo vệ học thuật / Nghiên cứu",
+   "version": "1.0.0",
+   "description": "Thesis, capstone or research defence: problem → gap → method → results → limits → recommendations, with evidence discipline built in.",
+   "use_cases": [
+    "academic",
+    "research",
+    "thesis",
+    "defense"
+   ],
+   "tags": [
+    "luận văn",
+    "đồ án",
+    "bảo vệ",
+    "nghiên cứu",
+    "hội đồng",
+    "khóa luận",
+    "thesis",
+    "dissertation",
+    "capstone",
+    "research",
+    "paper",
+    "conference",
+    "methodology",
+    "findings"
+   ],
+   "best_for": "Bảo vệ khóa luận/đồ án/luận văn, báo cáo nghiên cứu khoa học, hội thảo học thuật. Hội đồng cần thấy câu hỏi nghiên cứu, phương pháp và bằng chứng rõ ràng.",
+   "avoid_for": "Pitch bán hàng, sự kiện ra mắt sản phẩm, nội dung giải trí.",
+   "audience": [
+    "hội đồng",
+    "giảng viên",
+    "nhà nghiên cứu",
+    "committee",
+    "reviewers"
+   ],
+   "formality": "high",
+   "density": "speaker",
+   "data_intensity": "medium",
+   "default_theme": "editorial-warm",
+   "compatible_themes": [
+    "editorial-warm",
+    "corporate-premium",
+    "clinical-clean"
+   ],
+   "animation": "professional",
+   "signature_layouts": [
+    "methodology",
+    "chart",
+    "evidence-levels",
+    "references"
+   ],
+   "preview": "assets/templates/academic-defense/preview.jpg",
+   "storyline": [
+    "title",
+    "agenda",
+    "context",
+    "gap",
+    "questions",
+    "method",
+    "results",
+    "discussion",
+    "limits",
+    "conclusion",
+    "references",
+    "qa"
+   ]
+  },
+  {
+   "id": "business-review",
+   "name": "Business Review",
+   "name_vi": "Báo cáo kinh doanh / KPI",
+   "version": "1.0.0",
+   "description": "Periodic business or KPI review for decision makers: executive summary → KPI dashboard → trend → vs target → drivers → risks → actions → decision needed.",
+   "use_cases": [
+    "business",
+    "corporate",
+    "finance",
+    "operations"
+   ],
+   "tags": [
+    "kinh doanh",
+    "doanh thu",
+    "lợi nhuận",
+    "KPI",
+    "báo cáo quý",
+    "báo cáo tháng",
+    "ban giám đốc",
+    "chiến lược",
+    "ngân sách",
+    "vận hành",
+    "logistics",
+    "tài chính",
+    "business",
+    "revenue",
+    "quarterly",
+    "review",
+    "executive",
+    "board",
+    "budget",
+    "operations",
+    "finance",
+    "sales"
+   ],
+   "best_for": "Báo cáo kinh doanh định kỳ, review KPI, đề xuất ngân sách, báo cáo vận hành/logistics cho cấp quản lý.",
+   "avoid_for": "Bài giảng, nội dung cảm xúc hoặc sáng tạo.",
+   "audience": [
+    "ban giám đốc",
+    "quản lý",
+    "cổ đông",
+    "đối tác",
+    "executives",
+    "managers",
+    "board"
+   ],
+   "formality": "high",
+   "density": "reading",
+   "data_intensity": "high",
+   "default_theme": "corporate-premium",
+   "compatible_themes": [
+    "corporate-premium",
+    "clinical-clean",
+    "keynote-night"
+   ],
+   "animation": "professional",
+   "signature_layouts": [
+    "kpi-dashboard",
+    "chart",
+    "table",
+    "comparison"
+   ],
+   "preview": "assets/templates/business-review/preview.jpg",
+   "storyline": [
+    "title",
+    "summary",
+    "kpis",
+    "trend",
+    "variance",
+    "drivers",
+    "risks",
+    "plan",
+    "decision",
+    "close"
+   ]
+  },
+  {
+   "id": "lecture-teaching",
+   "name": "Lecture & Teaching",
+   "name_vi": "Bài giảng / Đào tạo",
+   "version": "1.0.0",
+   "description": "Lessons and training: objectives → concept → mechanism diagram → worked example → comparison → check question → recap → exercise. Built for clear information hierarchy and step-by-step builds.",
+   "use_cases": [
+    "education",
+    "teaching",
+    "training",
+    "workshop"
+   ],
+   "tags": [
+    "bài giảng",
+    "giảng dạy",
+    "lớp học",
+    "học sinh",
+    "sinh viên",
+    "đào tạo",
+    "tập huấn",
+    "khóa học",
+    "môn học",
+    "lecture",
+    "lesson",
+    "course",
+    "training",
+    "workshop",
+    "tutorial",
+    "class",
+    "students"
+   ],
+   "best_for": "Bài giảng đại học/phổ thông, đào tạo nội bộ, workshop. Người học cần hiểu khái niệm, thấy cơ chế bằng sơ đồ và tự kiểm tra.",
+   "avoid_for": "Báo cáo điều hành ngắn, pitch gọi vốn.",
+   "audience": [
+    "học sinh",
+    "sinh viên",
+    "học viên",
+    "nhân viên mới",
+    "students",
+    "learners",
+    "trainees"
+   ],
+   "formality": "medium",
+   "density": "speaker",
+   "data_intensity": "low",
+   "default_theme": "infographic-modern",
+   "compatible_themes": [
+    "infographic-modern",
+    "editorial-warm",
+    "clinical-clean"
+   ],
+   "animation": "professional",
+   "signature_layouts": [
+    "learning-objectives",
+    "definition",
+    "diagram",
+    "process"
+   ],
+   "preview": "assets/templates/lecture-teaching/preview.jpg",
+   "storyline": [
+    "title",
+    "objectives",
+    "hook",
+    "concept",
+    "mechanism",
+    "example",
+    "contrast",
+    "check",
+    "recap",
+    "practice"
+   ]
+  },
+  {
+   "id": "medical-briefing",
+   "name": "Medical Briefing",
+   "name_vi": "Y tế / Kiến thức sức khỏe",
+   "version": "1.0.0",
+   "description": "Health and medical knowledge: key message → burden (sourced) → mechanism → signs → diagnosis pathway → treatment comparison → prevention → references + disclaimer. Strict citation and data-status rules.",
+   "use_cases": [
+    "medical",
+    "healthcare",
+    "health-education",
+    "clinical"
+   ],
+   "tags": [
+    "y tế",
+    "sức khỏe",
+    "bệnh",
+    "bệnh viện",
+    "bác sĩ",
+    "điều dưỡng",
+    "dược",
+    "lâm sàng",
+    "dịch tễ",
+    "phòng bệnh",
+    "điều trị",
+    "chẩn đoán",
+    "medical",
+    "health",
+    "clinical",
+    "patient",
+    "disease",
+    "nursing",
+    "pharmacy",
+    "epidemiology"
+   ],
+   "best_for": "Truyền thông sức khỏe, sinh hoạt chuyên môn, báo cáo ca bệnh, đào tạo điều dưỡng/dược. Cần độ rõ ràng, nguồn dẫn và biểu đồ chính xác.",
+   "avoid_for": "Quảng cáo thuốc hay sản phẩm sức khỏe chưa được kiểm chứng; nội dung cần tư vấn cá nhân hóa.",
+   "audience": [
+    "người bệnh",
+    "cộng đồng",
+    "bác sĩ",
+    "điều dưỡng",
+    "sinh viên y",
+    "patients",
+    "clinicians",
+    "nurses"
+   ],
+   "formality": "high",
+   "density": "reading",
+   "data_intensity": "medium",
+   "default_theme": "clinical-clean",
+   "compatible_themes": [
+    "clinical-clean",
+    "corporate-premium",
+    "infographic-modern"
+   ],
+   "animation": "subtle",
+   "signature_layouts": [
+    "evidence-levels",
+    "table",
+    "diagram",
+    "references"
+   ],
+   "preview": "assets/templates/medical-briefing/preview.jpg",
+   "storyline": [
+    "title",
+    "key-message",
+    "burden",
+    "mechanism",
+    "signs",
+    "diagnosis",
+    "treatment",
+    "prevention",
+    "references",
+    "close"
+   ]
+  },
+  {
+   "id": "tech-product",
+   "name": "Tech Product Launch",
+   "name_vi": "Giới thiệu sản phẩm công nghệ",
+   "version": "1.0.0",
+   "description": "Product launch / demo day: problem → bold statement → solution → how it works → features → demo visual → benchmarks → roadmap → call to action. Dark keynote stage with cinematic-ready motion.",
+   "use_cases": [
+    "technology",
+    "product",
+    "demo",
+    "startup"
+   ],
+   "tags": [
+    "sản phẩm",
+    "công nghệ",
+    "phần mềm",
+    "ứng dụng",
+    "app",
+    "AI",
+    "nền tảng",
+    "ra mắt",
+    "demo",
+    "startup",
+    "SaaS",
+    "hệ thống",
+    "product",
+    "launch",
+    "software",
+    "platform",
+    "feature",
+    "roadmap",
+    "pitch",
+    "keynote",
+    "tech"
+   ],
+   "best_for": "Ra mắt/giới thiệu sản phẩm, demo day, pitch kỹ thuật, báo cáo đồ án phần mềm theo phong cách keynote.",
+   "avoid_for": "Tài liệu y tế cho người bệnh, báo cáo tài chính chính thức, văn bản hành chính.",
+   "audience": [
+    "khách hàng",
+    "nhà đầu tư",
+    "người dùng",
+    "đội kỹ thuật",
+    "customers",
+    "investors",
+    "developers"
+   ],
+   "formality": "medium",
+   "density": "speaker",
+   "data_intensity": "medium",
+   "default_theme": "keynote-night",
+   "compatible_themes": [
+    "keynote-night",
+    "infographic-modern",
+    "corporate-premium"
+   ],
+   "animation": "cinematic",
+   "signature_layouts": [
+    "statement",
+    "full-bleed-image",
+    "chart",
+    "timeline"
+   ],
+   "preview": "assets/templates/tech-product/preview.jpg",
+   "storyline": [
+    "title",
+    "problem",
+    "thesis",
+    "solution",
+    "how",
+    "features",
+    "demo",
+    "proof",
+    "roadmap",
+    "cta"
+   ]
+  }
+ ]
+}

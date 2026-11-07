@@ -1,0 +1,24 @@
+{
+  "title": "Lumen: trợ lý ghi chú cuộc họp chạy hoàn toàn trên máy",
+  "audience": "Khách hàng doanh nghiệp và nhà đầu tư",
+  "takeaway": "Lumen tóm tắt cuộc họp ngay trên laptop, không gửi âm thanh lên đám mây.",
+  "language": "vi",
+  "brand": "LUMEN · SẢN PHẨM MẪU",
+  "template": "tech-product",
+  "theme": "keynote-night",
+  "animation": "cinematic",
+  "density": "speaker",
+  "demo": true,
+  "slides": [
+    {"id": "title", "layout": "cover", "beat": "title", "eyebrow": "Ra mắt sản phẩm · Mẫu minh họa", "title": "Biên bản họp **tự viết**, dữ liệu không rời máy", "subtitle": "Lumen ghi, tóm tắt và giao việc sau mỗi cuộc họp bằng mô hình AI chạy cục bộ.", "meta": ["Phiên bản: 1.0 beta", "Nền tảng: Windows · macOS"]},
+    {"id": "problem", "layout": "metrics", "beat": "problem", "eyebrow": "Vấn đề", "title": "Nhân viên mất gần một ngày mỗi tuần cho việc sau họp", "items": [{"value": "6,2 giờ", "label": "mỗi tuần", "detail": "ghi chú và tổng hợp sau họp"}, {"value": "38%", "label": "việc bị quên", "detail": "không được giao rõ người làm"}, {"value": "71%", "label": "doanh nghiệp ngại", "detail": "gửi ghi âm họp lên đám mây"}]},
+    {"id": "thesis", "layout": "statement", "beat": "thesis", "eyebrow": "Góc nhìn", "title": "Trợ lý họp tốt nhất là trợ lý **không cần internet**.", "subtitle": "Máy tính văn phòng hiện nay đủ mạnh để chạy mô hình nhận dạng giọng nói và tóm tắt."},
+    {"id": "how", "layout": "process", "beat": "how", "eyebrow": "Cách hoạt động", "title": "Bốn bước diễn ra hoàn toàn trên laptop", "steps": [{"title": "Ghi âm", "detail": "Thu âm từ micro hoặc ứng dụng họp", "icon": "message-square"}, {"title": "Nhận dạng", "detail": "Chuyển giọng nói thành văn bản tiếng Việt", "icon": "cpu"}, {"title": "Tóm tắt", "detail": "Rút ra quyết định và việc cần làm", "icon": "file-text"}, {"title": "Giao việc", "detail": "Đẩy vào lịch và công cụ quản lý", "icon": "list-checks"}]},
+    {"id": "features", "layout": "cards", "beat": "features", "eyebrow": "Tính năng", "title": "Ba tính năng trả lời ba nỗi lo", "items": [{"title": "Riêng tư", "body": "Âm thanh và văn bản không rời khỏi thiết bị.", "icon": "lock"}, {"title": "Đúng tiếng Việt", "body": "Nhận dạng giọng ba miền và thuật ngữ chuyên ngành.", "icon": "globe"}, {"title": "Giao việc", "body": "Mỗi việc có người phụ trách và hạn chót.", "icon": "users"}]},
+    {"id": "demo", "layout": "image-split", "beat": "demo", "eyebrow": "Giao diện", "title": "Bản tóm tắt sẵn sàng 30 giây sau khi họp xong", "image": "demo-ui.jpg", "image_alt": "Ảnh mô phỏng giao diện Lumen", "image_credit": "Ảnh mô phỏng", "bullets": ["Quyết định được đánh dấu riêng", "Bấm vào câu để nghe lại đoạn ghi âm", "Xuất biên bản theo mẫu công ty"]},
+    {"id": "proof", "layout": "chart", "beat": "proof", "eyebrow": "Thử nghiệm nội bộ", "title": "Thời gian xử lý sau họp giảm từ 42 xuống 9 phút", "chart": {"type": "bar", "categories": ["Ghi tay", "Ghi âm + tự gõ", "Dịch vụ đám mây", "Lumen"], "series": [{"name": "Phút mỗi cuộc họp", "values": [42, 35, 12, 9]}], "highlight": 3, "unit": " phút"}, "caption": "Thử nghiệm minh họa trên 40 cuộc họp 60 phút; laptop 16 GB RAM."},
+    {"id": "roadmap", "layout": "timeline", "beat": "roadmap", "eyebrow": "Lộ trình", "title": "Từ bản beta đến phiên bản doanh nghiệp trong một năm", "items": [{"date": "Q3/2026", "title": "Beta kín", "detail": "20 doanh nghiệp thử nghiệm", "state": "done"}, {"date": "Q4/2026", "title": "Ra mắt 1.0", "detail": "Windows và macOS", "state": "now"}, {"date": "Q2/2027", "title": "Bản doanh nghiệp", "detail": "Quản trị tập trung, SSO", "state": "next"}, {"date": "Q4/2027", "title": "Di động", "detail": "Ghi họp trên điện thoại", "state": "next"}]},
+    {"id": "cta", "layout": "closing", "beat": "cta", "eyebrow": "Tham gia beta", "title": "Họp xong là có biên bản", "subtitle": "Đăng ký dùng thử miễn phí 30 ngày cho đội của bạn.", "meta": ["Web: lumen.example", "Email: hello@lumen.example"]}
+  ]
+}
+

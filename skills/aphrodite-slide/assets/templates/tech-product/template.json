@@ -1,0 +1,39 @@
+{
+  "id": "tech-product",
+  "name": "Tech Product Launch",
+  "name_vi": "Giới thiệu sản phẩm công nghệ",
+  "version": "1.0.0",
+  "description": "Product launch / demo day: problem → bold statement → solution → how it works → features → demo visual → benchmarks → roadmap → call to action. Dark keynote stage with cinematic-ready motion.",
+  "use_cases": ["technology", "product", "demo", "startup"],
+  "tags": ["sản phẩm", "công nghệ", "phần mềm", "ứng dụng", "app", "AI", "nền tảng", "ra mắt", "demo", "startup", "SaaS", "hệ thống", "product", "launch", "software", "platform", "feature", "roadmap", "pitch", "keynote", "tech"],
+  "best_for": "Ra mắt/giới thiệu sản phẩm, demo day, pitch kỹ thuật, báo cáo đồ án phần mềm theo phong cách keynote.",
+  "avoid_for": "Tài liệu y tế cho người bệnh, báo cáo tài chính chính thức, văn bản hành chính.",
+  "audience": ["khách hàng", "nhà đầu tư", "người dùng", "đội kỹ thuật", "customers", "investors", "developers"],
+  "formality": "medium",
+  "density": "speaker",
+  "data_intensity": "medium",
+  "default_theme": "keynote-night",
+  "compatible_themes": ["keynote-night", "infographic-modern", "corporate-premium"],
+  "animation": "cinematic",
+  "storyline": [
+    {"beat": "title", "layout": "cover", "purpose": "Tên sản phẩm + một câu giá trị"},
+    {"beat": "problem", "layout": "case|metrics", "purpose": "Nỗi đau cụ thể, có số liệu"},
+    {"beat": "thesis", "layout": "statement", "purpose": "Câu khẳng định vì sao cần cách làm mới"},
+    {"beat": "solution", "layout": "problem-solution|image-split", "purpose": "Sản phẩm giải quyết thế nào"},
+    {"beat": "how", "layout": "process|diagram", "purpose": "Cách hoạt động / kiến trúc"},
+    {"beat": "features", "layout": "cards", "purpose": "3–4 tính năng, mỗi cái một lợi ích"},
+    {"beat": "demo", "layout": "full-bleed-image|image-split", "purpose": "Ảnh chụp/mô phỏng giao diện"},
+    {"beat": "proof", "layout": "chart|kpi-dashboard", "purpose": "Benchmark hoặc kết quả thử nghiệm"},
+    {"beat": "roadmap", "layout": "timeline", "purpose": "Đã làm / đang làm / sắp tới"},
+    {"beat": "cta", "layout": "closing", "purpose": "Lời kêu gọi hành động, liên hệ"}
+  ],
+  "signature_layouts": ["statement", "full-bleed-image", "chart", "timeline"],
+  "content_rules": [
+    "Benchmark phải nêu điều kiện đo (tập dữ liệu, phần cứng, ngày) và so sánh công bằng.",
+    "Ảnh giao diện là ảnh thật hoặc ghi rõ là mô phỏng.",
+    "Mỗi tính năng gắn với một lợi ích đo được, không liệt kê thuật ngữ."
+  ],
+  "preview": "preview.jpg",
+  "sample": "sample.json"
+}
+

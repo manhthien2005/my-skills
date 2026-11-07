@@ -58,6 +58,12 @@ def normalize(deck: dict) -> dict:
     d = {k: unicodedata.normalize('NFC', v) if isinstance(v, str) else v for k, v in d.items()}
     d['spec_version'] = 2
     d.setdefault('language', 'vi')
+    if d.get('template'):
+        try:
+            from .registry import apply_template, get_template
+            d = apply_template(d, get_template(str(d['template'])))
+        except ValueError:
+            pass
     d['theme'] = resolve_theme_id(d.get('theme') or paths.profile().get('default_theme', 'editorial-warm'))
     d.setdefault('animation', paths.profile().get('animation', 'professional'))
     slides = d.get('slides') or []
@@ -312,8 +318,14 @@ def audit(deck: dict, strict: bool = False, assets_root: Path | None = None, the
                 if miss is None:
                     issue('warning', sid, 'font-unverified', f'font "{fam}" is not bundled; glyph coverage unverified')
                 elif miss:
-                    issue('error', sid, 'missing-glyph', f'font "{fam}" cannot draw: {"".join(sorted(miss))}',
-                          'choose a theme/font that covers these characters')
+                    letters = {ch for ch in miss if unicodedata.category(ch).startswith(('L', 'M'))}
+                    if letters:
+                        issue('error', sid, 'missing-glyph', f'font "{fam}" cannot draw: {"".join(sorted(letters))}',
+                              'choose a theme/font that covers these characters')
+                    others = miss - letters
+                    if others:
+                        issue('warning', sid, 'fallback-glyph', f'font "{fam}" lacks symbols {"".join(sorted(others))}; '
+                              'they render in a fallback font', 'check the slide visually')
     errors = sum(x['severity'] == 'error' for x in issues)
     return {'slide_count': len(slides), 'issue_count': len(issues), 'error_count': errors,
             'warning_count': sum(x['severity'] == 'warning' for x in issues), 'issues': issues, 'ok': errors == 0}

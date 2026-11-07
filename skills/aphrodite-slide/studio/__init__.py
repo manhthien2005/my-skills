@@ -1,2 +1,2 @@
-"""Personal Slide Studio: portable, local-first agentic slide production."""
-__version__ = '1.0.0'
+"""Aphrodite-slide v2: Personal AI Presentation Studio (offline-first, single Agent Skill)."""
+__version__ = '2.0.0'

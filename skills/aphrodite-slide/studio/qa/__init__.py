@@ -60,7 +60,8 @@ def evaluate(render: dict, content: dict | None = None, folder: Path | None = No
         try:
             from PIL import Image
             for s in slides[:1]:
-                w, h = Image.open(Path(folder) / s['image']).size
+                with Image.open(Path(folder) / s['image']) as im:
+                    w, h = im.size
                 if abs(w / h - 16 / 9) > 0.01:
                     add(deck_issues, 'error', 'aspect-ratio', f'preview is {w}x{h}, not 16:9')
         except Exception:  # noqa: BLE001

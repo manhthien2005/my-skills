@@ -1,0 +1,113 @@
+{
+  "spec_version": 2,
+  "title": "Ảnh hưởng của độ phủ cây xanh đến nhiệt độ bề mặt đô thị mùa nắng nóng",
+  "audience": "Hội đồng chấm luận văn thạc sĩ Quy hoạch & Môi trường đô thị",
+  "purpose": "Bảo vệ kết quả nghiên cứu định lượng 15 phút",
+  "takeaway": "Tăng 10% độ phủ tán cây trong bán kính 250 m gắn với mức giảm trung bình 1,4°C nhiệt độ bề mặt ban trưa trong bộ dữ liệu vệ tinh mô phỏng.",
+  "language": "vi",
+  "template": "academic-defense",
+  "theme": "editorial-warm",
+  "animation": "professional",
+  "density": "speaker",
+  "brand": "BẢO VỆ LUẬN VĂN MẪU · DỮ LIỆU MINH HỌA",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Luận văn Thạc sĩ mẫu · 2026",
+      "title": "Ảnh hưởng của **độ phủ cây xanh** đến nhiệt độ bề mặt đô thị",
+      "subtitle": "Phân tích hồi quy không gian trên 180 ô lưới 250 m kết hợp dữ liệu viễn thám nhiệt mùa khô (dữ liệu minh họa).",
+      "meta": ["Học viên: Lê Hoàng Nam (mẫu)", "Hướng dẫn: PGS.TS. Phạm Minh T", "Ngày bảo vệ: 15/11/2026"]
+    },
+    {
+      "id": "research-gap",
+      "layout": "statement",
+      "eyebrow": "Khoảng trống nghiên cứu",
+      "title": "Cùng tổng diện tích xanh, **cấu trúc phân tán tán cây** mới quyết định mức giảm nhiệt đường phố.",
+      "subtitle": "Quy chuẩn tính tổng m² công viên cấp quận chưa phản ánh mức phơi nhiễm nhiệt tại từng ô phố dân cư.",
+      "note": "Kịch bản nghiên cứu mẫu phục vụ kiểm thử học thuật."
+    },
+    {
+      "id": "methodology",
+      "layout": "methodology",
+      "eyebrow": "Thiết kế & Phương pháp",
+      "title": "Mô hình hồi quy không gian trên 180 ô lưới kết hợp đo kiểm thực địa",
+      "facts": [
+        {"value": "180", "label": "ô lưới đô thị 250 × 250 m"},
+        {"value": "12 cảnh", "label": "ảnh nhiệt mùa khô đã lọc mây"},
+        {"value": "SEM", "label": "mô hình sai số không gian"}
+      ],
+      "steps": [
+        {"title": "Chuẩn hóa ảnh nhiệt", "detail": "Hiệu chỉnh khí quyển và độ phát xạ bề mặt theo lớp phủ đất"},
+        {"title": "Đo lường tán cây & bê tông", "detail": "Tách riêng tán cây thân gỗ, thảm cỏ và tỷ lệ bề mặt không thấm"},
+        {"title": "Ước lượng đa biến", "detail": "Kiểm soát mật độ xây dựng, tầng cao trung bình và khoảng cách tới sông hồ"}
+      ]
+    },
+    {
+      "id": "lst-results",
+      "layout": "chart",
+      "eyebrow": "Kết quả chính",
+      "title": "Ô lưới có trên **30% tán cây** mát hơn 3,1°C so với khu đặc kín",
+      "chart": {
+        "type": "column",
+        "categories": ["< 10% tán cây", "10–20%", "20–30%", "> 30% tán cây"],
+        "series": [{"name": "Nhiệt độ bề mặt", "values": [39.4, 38.2, 36.9, 36.3]}],
+        "highlight": "> 30% tán cây",
+        "unit": "°C"
+      },
+      "insights": [
+        "Mỗi 10% độ phủ tán cây tăng thêm gắn với mức giảm trung bình 1,4°C (p < 0,01 trên tập mẫu)",
+        "Ngưỡng chuyển biến rõ nhất xuất hiện khi độ phủ tán cây vượt mốc 20% diện tích ô phố"
+      ],
+      "caption": "Nhiệt độ bề mặt ban trưa trung bình (°C), n = 180 ô lưới mô phỏng.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "evidence-tier",
+      "layout": "evidence-levels",
+      "eyebrow": "Độ tin cậy phương pháp",
+      "title": "Kết quả có kiểm soát tự tương quan không gian nhưng cần chuỗi nhiều năm",
+      "levels": [
+        {"label": "Quan trắc vi khí hậu đa năm", "detail": "Chuẩn vàng tiếp theo để đo đồng thời nhiệt độ không khí ban đêm"},
+        {"label": "Hồi quy không gian đa cảnh", "detail": "Mức bằng chứng thực nghiệm có đo kiểm mẫu của luận văn này"},
+        {"label": "Tương quan đơn thời điểm", "detail": "Các khảo sát sơ bộ chưa tách ảnh hưởng mật độ công trình"}
+      ],
+      "note": "Phân tầng giúp diễn giải đúng phạm vi ứng dụng khi tham mưu quy hoạch."
+    },
+    {
+      "id": "limitations",
+      "layout": "cards",
+      "eyebrow": "Giới hạn nghiên cứu",
+      "title": "Ba giới hạn cần lưu ý khi chuyển kết quả sang quy chuẩn thiết kế",
+      "items": [
+        {"title": "Khung giờ thu nhận", "body": "Vệ tinh bay qua lúc ~10h30 sáng nên chưa phản ánh trọn vẹn hiệu ứng đảo nhiệt ban đêm.", "icon": "clock"},
+        {"title": "Gió hành lang phố", "body": "Mô hình chưa đưa vận tốc gió cục bộ theo hướng tuyến đường vào biến giải thích.", "icon": "map"},
+        {"title": "Chuỗi thời gian ngắn", "body": "Cần mở rộng sang chuỗi 3–5 mùa khô để kiểm định độ bền vững qua các năm El Niño.", "icon": "calendar"}
+      ]
+    },
+    {
+      "id": "recommendations",
+      "layout": "key-takeaways",
+      "eyebrow": "Kết luận & Khuyến nghị",
+      "title": "Ba hàm ý cho cải tạo cây xanh tại các khu phố hiện hữu",
+      "bullets": [
+        "Thiết lập ngưỡng tối thiểu 20% độ phủ tán cây trên các tuyến đi bộ, trường học và bãi đỗ xe ngoài trời",
+        "Phân biệt rõ diện tích bóng mát cây thân gỗ với diện tích thảm cỏ thấp khi nghiệm thu chỉ tiêu xanh",
+        "Áp dụng chỉ số tiếp cận bóng mát trong bán kính 250 m để tránh dồn cây xanh vào một vài điểm xa khu dân cư"
+      ]
+    },
+    {
+      "id": "references",
+      "layout": "references",
+      "eyebrow": "Tài liệu trích dẫn",
+      "title": "Tài liệu tham khảo chính",
+      "items": [
+        "Oke, T. R., Mills, G., Christen, A., & Voogt, J. A. (2017). Urban Climates. Cambridge University Press.",
+        "Stewart, I. D., & Oke, T. R. (2012). Local climate zones for urban temperature studies. Bulletin of the American Meteorological Society.",
+        "Anselin, L. (2003). Spatial externalities, spatial multipliers, and spatial econometrics. International Regional Science Review.",
+        "Ghi chú: Số liệu thực nghiệm trong bộ slide là dữ liệu mô phỏng có nhãn minh họa phục vụ kiểm thử."
+      ]
+    }
+  ]
+}

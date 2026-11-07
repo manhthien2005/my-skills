@@ -1,0 +1,62 @@
+{
+  "spec_version": 2,
+  "title": "Điện mặt trời áp mái tự dùng cho nhà máy chế biến thực phẩm",
+  "audience": "Ban điều hành nhà máy và bộ phận kỹ thuật năng lượng",
+  "purpose": "Kiểm chứng khả năng áp dụng lại template cá nhân sustainable-strategy trên chủ đề hoàn toàn khác",
+  "takeaway": "Hệ thống áp mái 1,8 MWp kết hợp điều độ phụ tải lạnh giờ trưa đáp ứng 38% điện năng ban ngày và hoàn vốn sau 4,4 năm trong mô hình mẫu.",
+  "language": "vi",
+  "template": "sustainable-strategy",
+  "brand": "NHÀ MÁY XANH · REUSED TEMPLATE",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Tái sử dụng Template cá nhân · Chủ đề Năng lượng",
+      "title": "Điện mặt trời áp mái **tự dùng** cho nhà máy thực phẩm",
+      "subtitle": "Áp dụng lại template Sustainable Strategy trên bài toán phụ tải kho lạnh công nghiệp (dữ liệu minh họa).",
+      "meta": ["Công suất mẫu: 1,8 MWp", "Hình thức: Tự sản tự tiêu", "Hoàn vốn ước tính: 4,4 năm"]
+    },
+    {
+      "id": "solar-metrics",
+      "layout": "metrics",
+      "eyebrow": "Quy mô phương án",
+      "title": "Ba chỉ số cốt lõi của phương án lắp đặt trên mái xưởng số 2",
+      "items": [
+        {"value": "38%", "label": "điện ban ngày tự cấp", "detail": "Trùng đỉnh chạy máy nén kho lạnh"},
+        {"value": "2,45 GWh", "label": "sản lượng năm đầu", "detail": "Theo bức xạ trung bình khu vực"},
+        {"value": "4,4 năm", "label": "thời gian hoàn vốn", "detail": "Không tính doanh thu bán điện dư"}
+      ],
+      "data_status": "illustrative"
+    },
+    {
+      "id": "load-chart",
+      "layout": "chart",
+      "eyebrow": "Khớp nối phụ tải",
+      "title": "Đỉnh phát điện mặt trời trùng khớp **khung giờ cao điểm** làm lạnh",
+      "chart": {
+        "type": "line",
+        "categories": ["06h", "08h", "10h", "12h", "14h", "16h", "18h"],
+        "series": [
+          {"name": "Phụ tải nhà máy", "values": [950, 1320, 1680, 1740, 1690, 1480, 1120]},
+          {"name": "Công suất áp mái", "values": [60, 520, 1240, 1510, 1380, 640, 40]}
+        ],
+        "unit": "kW"
+      },
+      "caption": "Biểu đồ phụ tải ngày nắng điển hình (kW), số liệu kỹ thuật minh họa.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "next-steps",
+      "layout": "key-takeaways",
+      "eyebrow": "Lộ trình thực hiện",
+      "title": "Ba việc cần hoàn tất trước mùa nắng cao điểm",
+      "bullets": [
+        "Kiểm định kết cấu chịu tải mái tôn xưởng số 2 và hành lang bảo trì chống thấm",
+        "Lập lịch hạ sâu nhiệt độ kho đông thêm 1,5°C vào khung 11h–13h để tích trữ lạnh bằng điện mặt trời",
+        "Đấu nối hệ thống giám sát công suất thời gian thực và cơ chế chống phát ngược lên lưới"
+      ]
+    }
+  ]
+}
+

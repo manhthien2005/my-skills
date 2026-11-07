@@ -1,0 +1,40 @@
+{
+  "id": "business-review",
+  "name": "Business Review",
+  "name_vi": "Báo cáo kinh doanh / KPI",
+  "version": "1.0.0",
+  "description": "Periodic business or KPI review for decision makers: executive summary → KPI dashboard → trend → vs target → drivers → risks → actions → decision needed.",
+  "use_cases": ["business", "corporate", "finance", "operations"],
+  "tags": ["kinh doanh", "doanh thu", "lợi nhuận", "KPI", "báo cáo quý", "báo cáo tháng", "ban giám đốc", "chiến lược", "ngân sách", "vận hành", "logistics", "tài chính", "business", "revenue", "quarterly", "review", "executive", "board", "budget", "operations", "finance", "sales"],
+  "best_for": "Báo cáo kinh doanh định kỳ, review KPI, đề xuất ngân sách, báo cáo vận hành/logistics cho cấp quản lý.",
+  "avoid_for": "Bài giảng, nội dung cảm xúc hoặc sáng tạo.",
+  "audience": ["ban giám đốc", "quản lý", "cổ đông", "đối tác", "executives", "managers", "board"],
+  "formality": "high",
+  "density": "reading",
+  "data_intensity": "high",
+  "default_theme": "corporate-premium",
+  "compatible_themes": ["corporate-premium", "clinical-clean", "keynote-night"],
+  "animation": "professional",
+  "storyline": [
+    {"beat": "title", "layout": "cover", "purpose": "Kỳ báo cáo, đơn vị"},
+    {"beat": "summary", "layout": "key-takeaways|statement", "purpose": "Tóm tắt điều hành: 3 kết luận"},
+    {"beat": "kpis", "layout": "kpi-dashboard", "purpose": "KPI chính so với mục tiêu"},
+    {"beat": "trend", "layout": "chart", "purpose": "Xu hướng chỉ số quan trọng nhất"},
+    {"beat": "variance", "layout": "table|chart", "purpose": "Thực tế vs kế hoạch, giải thích chênh lệch"},
+    {"beat": "drivers", "layout": "cards", "purpose": "Động lực / nguyên nhân chính"},
+    {"beat": "risks", "layout": "table", "purpose": "Rủi ro: mức độ, người phụ trách, biện pháp"},
+    {"beat": "plan", "layout": "timeline|process", "purpose": "Kế hoạch hành động kỳ tới"},
+    {"beat": "decision", "layout": "comparison|statement", "purpose": "Quyết định cần ban lãnh đạo thông qua"},
+    {"beat": "close", "layout": "closing", "purpose": "Liên hệ, phụ lục"}
+  ],
+  "signature_layouts": ["kpi-dashboard", "chart", "table", "comparison"],
+  "content_rules": [
+    "Mở đầu bằng kết luận (tóm tắt điều hành), không để kết luận ở cuối.",
+    "Mỗi KPI có kỳ, đơn vị, mục tiêu và nguồn dữ liệu nội bộ.",
+    "Chênh lệch lớn so với kế hoạch phải có giải thích.",
+    "Slide cuối nêu rõ quyết định cần đưa ra."
+  ],
+  "preview": "preview.jpg",
+  "sample": "sample.json"
+}
+

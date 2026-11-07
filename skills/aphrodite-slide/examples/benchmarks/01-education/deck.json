@@ -1,0 +1,130 @@
+{
+  "spec_version": 2,
+  "title": "Hiệu ứng nhà kính và cân bằng bức xạ Trái Đất",
+  "audience": "Học sinh lớp 11 THPT",
+  "purpose": "Bài giảng 45 phút môn Vật lý - Khoa học Trái Đất",
+  "takeaway": "Hiệu ứng nhà kính tự nhiên giữ Trái Đất ấm ở mức sống được, nhưng nồng độ khí nhà kính tăng nhanh đang làm lệch cân bằng bức xạ.",
+  "language": "vi",
+  "template": "lecture-teaching",
+  "theme": "infographic-modern",
+  "animation": "professional",
+  "density": "speaker",
+  "brand": "KHOA HỌC TRÁI ĐẤT 11 · BÀI GIẢNG MẪU",
+  "demo": true,
+  "slides": [
+    {
+      "id": "cover",
+      "layout": "cover",
+      "eyebrow": "Khoa học Trái Đất 11 · Bài 14",
+      "title": "Hiệu ứng **nhà kính** và cân bằng bức xạ Trái Đất",
+      "subtitle": "Bài giảng minh họa cơ chế giữ nhiệt của khí quyển và tác động của phát thải nhân sinh.",
+      "meta": ["Giáo viên: Thầy Nguyễn Minh K", "Thời lượng: 45 phút", "Loại bài: Lý thuyết + thảo luận"],
+      "notes": "Mở đầu bằng câu hỏi: Vì sao Mặt Trăng cùng khoảng cách tới Mặt Trời nhưng ban đêm lạnh tới âm 170°C?"
+    },
+    {
+      "id": "objectives",
+      "layout": "learning-objectives",
+      "eyebrow": "Mục tiêu bài học",
+      "title": "Bốn năng lực cần đạt sau tiết học",
+      "items": [
+        {"text": "**Mô tả** đường đi của bức xạ sóng ngắn Mặt Trời và bức xạ hồng ngoại Trái Đất", "icon": "globe"},
+        {"text": "**Giải thích** vai trò hấp thụ chọn lọc của hơi nước, CO₂ và CH₄", "icon": "flask-conical"},
+        {"text": "**Phân biệt** hiệu ứng nhà kính tự nhiên và hiệu ứng nhà kính gia tăng", "icon": "layers"},
+        {"text": "**Đề xuất** hai hành động giảm phát thải gắn với đời sống học đường", "icon": "leaf"}
+      ]
+    },
+    {
+      "id": "definition",
+      "layout": "definition",
+      "eyebrow": "Khái niệm trọng tâm",
+      "term": "Hiệu ứng nhà kính",
+      "pronunciation": "Greenhouse Effect · Khí quyển học",
+      "definition": "Quá trình khí quyển cho ánh sáng Mặt Trời sóng ngắn đi qua nhưng hấp thụ và bức xạ ngược lại một phần tia hồng ngoại sóng dài từ mặt đất.",
+      "example": "Ô tô đỗ kín cửa dưới nắng trưa nóng hơn ngoài trời 15–20°C do năng lượng ánh sáng đi vào dễ hơn nhiệt thoát ra.",
+      "note": "Khí quyển giữ nhiệt nhờ hấp thụ bức xạ hồng ngoại phân tử, không phải nhờ vách kính chặn đối lưu."
+    },
+    {
+      "id": "mechanism",
+      "layout": "process",
+      "eyebrow": "Cơ chế vật lý",
+      "title": "Ba bước trao đổi năng lượng giữa Mặt Trời, mặt đất và khí quyển",
+      "steps": [
+        {"title": "Chiếu sáng sóng ngắn", "detail": "Ánh sáng nhìn thấy xuyên qua khí quyển làm ấm lục địa và đại dương", "icon": "zap"},
+        {"title": "Phát xạ hồng ngoại", "detail": "Mặt đất ấm lên phát tia hồng ngoại bước sóng dài hướng ra không gian", "icon": "activity"},
+        {"title": "Hấp thụ & phản xạ lại", "detail": "H₂O, CO₂ và CH₄ giữ một phần tia hồng ngoại rồi phát ngược xuống bề mặt", "icon": "cloud"}
+      ]
+    },
+    {
+      "id": "gases-hub",
+      "layout": "diagram",
+      "variant": "hub",
+      "eyebrow": "Thành phần khí quyển",
+      "title": "Bốn khí nhà kính chính đóng góp khác nhau vào khả năng giữ nhiệt",
+      "center": "Khí nhà kính",
+      "nodes": [
+        {"title": "Hơi nước (H₂O)", "detail": "Nền tự nhiên lớn nhất, chu trình ngắn vài ngày", "icon": "droplet"},
+        {"title": "Cacbonic (CO₂)", "detail": "Từ nhiên liệu hóa thạch, tồn lưu hàng thế kỷ", "icon": "factory"},
+        {"title": "Mêtan (CH₄)", "detail": "Từ nông nghiệp & rác thải, hấp thụ nhiệt mạnh", "icon": "leaf"},
+        {"title": "Đinitơ oxit (N₂O)", "detail": "Từ phân đạm và công nghiệp hóa chất", "icon": "flask-conical"}
+      ]
+    },
+    {
+      "id": "natural-vs-human",
+      "layout": "comparison",
+      "eyebrow": "Phân biệt bản chất",
+      "title": "Tự nhiên duy trì sự sống, nhân sinh làm Trái Đất nóng nhanh",
+      "highlight": "left",
+      "left": {
+        "title": "Hiệu ứng tự nhiên",
+        "tag": "Cân bằng",
+        "tone": "positive",
+        "bullets": [
+          "Giữ nhiệt độ trung bình bề mặt quanh +15°C thay vì -18°C",
+          "Năng lượng nhận vào cân bằng với bức xạ thoát ra vũ trụ",
+          "Ổn định chu trình nước và hệ sinh thái suốt hàng thiên niên kỷ"
+        ]
+      },
+      "right": {
+        "title": "Hiệu ứng gia tăng do người",
+        "tag": "Mất cân bằng",
+        "tone": "negative",
+        "bullets": [
+          "Nồng độ CO₂ tăng nhanh vượt biên độ dao động tự nhiên",
+          "Giữ dư năng lượng trong đại dương và tầng đối lưu",
+          "Thúc đẩy nắng nóng cực đoan, băng tan và mưa lớn bất thường"
+        ]
+      },
+      "verdict": "Mục tiêu khí hậu là giảm phát thải nhân sinh về mức cân bằng, không phải xóa bỏ hiệu ứng tự nhiên."
+    },
+    {
+      "id": "sector-chart",
+      "layout": "chart",
+      "eyebrow": "Cơ cấu nguồn phát thải",
+      "title": "Điện năng và công nghiệp chiếm **58%** lượng phát thải mô hình mẫu",
+      "chart": {
+        "type": "column",
+        "categories": ["Điện & nhiệt", "Công nghiệp", "Giao thông", "Nông nghiệp", "Tòa nhà"],
+        "series": [{"name": "Tỷ trọng", "values": [34, 24, 16, 15, 11]}],
+        "highlight": "Điện & nhiệt",
+        "unit": "%"
+      },
+      "insights": [
+        "Điện và nhiệt đứng đầu (34%), liên hệ trực tiếp với thói quen dùng điện hàng ngày",
+        "Giao thông (16%) giảm nhanh khi ưu tiên xe buýt, xe đạp và đi bộ chặng ngắn"
+      ],
+      "caption": "Cơ cấu phát thải minh họa phục vụ thảo luận trên lớp.",
+      "data_status": "illustrative"
+    },
+    {
+      "id": "takeaways",
+      "layout": "key-takeaways",
+      "eyebrow": "Tóm tắt & Vận dụng",
+      "title": "Ba ý cốt lõi cần nhớ và bài tập về nhà",
+      "bullets": [
+        "Ánh sáng sóng ngắn đi vào dễ dàng; tia hồng ngoại sóng dài bị khí nhà kính hấp thụ và phát xạ ngược lại",
+        "Biến đổi khí hậu hiện đại bắt nguồn từ tốc độ tăng nhanh CO₂ và CH₄ do hoạt động con người",
+        "Bài tập về nhà: Đọc hóa đơn điện gia đình tháng gần nhất và đề xuất 2 thói quen giúp giảm 10% kWh"
+      ]
+    }
+  ]
+}

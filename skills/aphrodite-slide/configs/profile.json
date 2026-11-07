@@ -1,0 +1,19 @@
+{
+  "_comment": "Owner defaults captured in the v2 interview. Override privately in ~/.aphrodite-slide/profile.json (same keys).",
+  "language": "vi",
+  "preferred_use_cases": ["academic", "education", "medical", "technology", "business"],
+  "liked_themes": ["editorial-warm", "corporate-premium", "infographic-modern"],
+  "default_theme": "editorial-warm",
+  "primary_output": "html",
+  "secondary_outputs": ["pptx", "pdf"],
+  "density_by_use_case": {"academic": "speaker", "education": "speaker", "technology": "speaker", "medical": "reading", "business": "reading"},
+  "animation": "professional",
+  "pptx_transitions": true,
+  "pptx_entrances": false,
+  "content_draft": "file",
+  "content_draft_file": "outline.md",
+  "template_storage": {"clean_templates": "repo", "brand_or_private_templates": "user"},
+  "design_principles": ["one-message-per-slide", "claim-led-titles", "no-unsourced-numbers", "split-instead-of-shrink",
+                        "colour-encodes-meaning", "render-and-inspect"]
+}
+

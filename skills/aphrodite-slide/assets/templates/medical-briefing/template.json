@@ -1,0 +1,40 @@
+{
+  "id": "medical-briefing",
+  "name": "Medical Briefing",
+  "name_vi": "Y tế / Kiến thức sức khỏe",
+  "version": "1.0.0",
+  "description": "Health and medical knowledge: key message → burden (sourced) → mechanism → signs → diagnosis pathway → treatment comparison → prevention → references + disclaimer. Strict citation and data-status rules.",
+  "use_cases": ["medical", "healthcare", "health-education", "clinical"],
+  "tags": ["y tế", "sức khỏe", "bệnh", "bệnh viện", "bác sĩ", "điều dưỡng", "dược", "lâm sàng", "dịch tễ", "phòng bệnh", "điều trị", "chẩn đoán", "medical", "health", "clinical", "patient", "disease", "nursing", "pharmacy", "epidemiology"],
+  "best_for": "Truyền thông sức khỏe, sinh hoạt chuyên môn, báo cáo ca bệnh, đào tạo điều dưỡng/dược. Cần độ rõ ràng, nguồn dẫn và biểu đồ chính xác.",
+  "avoid_for": "Quảng cáo thuốc hay sản phẩm sức khỏe chưa được kiểm chứng; nội dung cần tư vấn cá nhân hóa.",
+  "audience": ["người bệnh", "cộng đồng", "bác sĩ", "điều dưỡng", "sinh viên y", "patients", "clinicians", "nurses"],
+  "formality": "high",
+  "density": "reading",
+  "data_intensity": "medium",
+  "default_theme": "clinical-clean",
+  "compatible_themes": ["clinical-clean", "corporate-premium", "infographic-modern"],
+  "animation": "subtle",
+  "storyline": [
+    {"beat": "title", "layout": "cover", "purpose": "Chủ đề, đơn vị, người trình bày"},
+    {"beat": "key-message", "layout": "statement", "purpose": "Thông điệp chính trong một câu"},
+    {"beat": "burden", "layout": "metrics|chart", "purpose": "Gánh nặng bệnh tật, có nguồn (tổ chức, năm)"},
+    {"beat": "mechanism", "layout": "diagram|process", "purpose": "Cơ chế bệnh sinh hoặc đường lây"},
+    {"beat": "signs", "layout": "cards", "purpose": "Triệu chứng / dấu hiệu cảnh báo"},
+    {"beat": "diagnosis", "layout": "process|evidence-levels", "purpose": "Quy trình chẩn đoán hoặc phân tầng nguy cơ"},
+    {"beat": "treatment", "layout": "table|comparison", "purpose": "So sánh lựa chọn điều trị theo hướng dẫn"},
+    {"beat": "prevention", "layout": "learning-objectives|key-takeaways", "purpose": "Việc cần làm cụ thể"},
+    {"beat": "references", "layout": "references", "purpose": "Hướng dẫn và nguồn chính thức"},
+    {"beat": "close", "layout": "closing", "purpose": "Liên hệ, khuyến cáo tham khảo ý kiến chuyên môn"}
+  ],
+  "signature_layouts": ["evidence-levels", "table", "diagram", "references"],
+  "content_rules": [
+    "Mọi con số dịch tễ, liều dùng, tỷ lệ phải có nguồn chính thức (WHO, Bộ Y tế, hướng dẫn chuyên ngành, bài báo có bình duyệt) và năm.",
+    "Không đưa liều thuốc cụ thể nếu không trích từ hướng dẫn; không thay thế tư vấn y tế cá nhân.",
+    "Phân biệt rõ khuyến cáo mạnh, khuyến cáo có điều kiện và ý kiến chuyên gia.",
+    "Màu cảnh báo (đỏ/cam) chỉ dùng cho dấu hiệu nguy hiểm."
+  ],
+  "preview": "preview.jpg",
+  "sample": "sample.json"
+}
+

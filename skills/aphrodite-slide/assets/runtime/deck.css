@@ -230,9 +230,9 @@ svg text{font-family:var(--f-body)}
 /* evidence levels */
 .levels{display:flex;flex-direction:column;gap:14px}
 .level{display:grid;grid-template-columns:var(--w) 1fr;align-items:center;gap:36px}
-.level .bar{display:flex;align-items:center;gap:18px;height:84px;padding:0 28px;border-radius:calc(var(--radius) / 2);background:var(--c);color:#fff;
-  font-size:26px;font-weight:800;white-space:nowrap;overflow:hidden}
-.level .bar b{font-size:30px;opacity:.85}
+.level .bar{display:flex;align-items:center;gap:18px;min-height:84px;padding:14px 28px;border-radius:calc(var(--radius) / 2);background:var(--c);color:#fff;
+  font-size:25px;font-weight:800;line-height:1.22}
+.level .bar b{flex:none;font-size:30px;opacity:.85}
 .level p{color:var(--muted);font-size:24px;line-height:1.4}
 
 /* methodology */

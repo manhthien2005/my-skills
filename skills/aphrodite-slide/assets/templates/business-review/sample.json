@@ -1,0 +1,24 @@
+{
+  "title": "Báo cáo kinh doanh quý 3/2026",
+  "audience": "Ban giám đốc",
+  "takeaway": "Doanh thu vượt kế hoạch 6% nhưng biên lợi nhuận giảm do chi phí vận chuyển; cần duyệt phương án đàm phán lại hợp đồng logistics.",
+  "language": "vi",
+  "brand": "CÔNG TY MẪU · BÁO CÁO NỘI BỘ",
+  "template": "business-review",
+  "theme": "corporate-premium",
+  "animation": "professional",
+  "density": "reading",
+  "demo": true,
+  "slides": [
+    {"id": "title", "layout": "cover", "beat": "title", "eyebrow": "Báo cáo quý · Dữ liệu minh họa", "title": "Kết quả kinh doanh **quý 3/2026**", "subtitle": "Doanh thu vượt kế hoạch, biên lợi nhuận chịu áp lực từ chi phí vận chuyển.", "meta": ["Trình bày: Phòng Kế hoạch", "Ngày: 10/10/2026"]},
+    {"id": "summary", "layout": "key-takeaways", "beat": "summary", "eyebrow": "Tóm tắt điều hành", "title": "Ba điều ban giám đốc cần biết", "bullets": ["Doanh thu đạt **128 tỷ**, vượt kế hoạch 6%", "Biên lợi nhuận gộp giảm 2,1 điểm do cước vận chuyển tăng", "Đề xuất: đàm phán lại hai hợp đồng logistics trước tháng 12"]},
+    {"id": "kpis", "layout": "kpi-dashboard", "beat": "kpis", "eyebrow": "Chỉ số chính", "title": "Doanh thu và khách hàng tăng, biên lợi nhuận giảm", "period": "Q3/2026", "items": [{"label": "Doanh thu", "value": "128 tỷ", "delta": "+6% KH", "status": "up", "trend": [98, 104, 110, 115, 121, 128]}, {"label": "Biên LN gộp", "value": "31,4%", "delta": "−2,1 đ", "status": "bad", "trend": [34, 33.8, 33.5, 32.6, 32, 31.4]}, {"label": "Khách hàng mới", "value": "1.240", "delta": "+18%", "status": "up", "trend": [800, 870, 950, 1020, 1100, 1240]}, {"label": "Đơn giao đúng hạn", "value": "94,6%", "delta": "+0,8 đ", "status": "up"}, {"label": "Chi phí vận chuyển/đơn", "value": "41.200 đ", "delta": "+14%", "status": "bad"}, {"label": "Tồn kho (ngày)", "value": "36", "delta": "0", "status": "flat"}]},
+    {"id": "trend", "layout": "chart", "beat": "trend", "eyebrow": "Xu hướng", "title": "Doanh thu tăng đều ba quý liên tiếp", "chart": {"type": "column", "categories": ["Q3/25", "Q4/25", "Q1/26", "Q2/26", "Q3/26"], "series": [{"name": "Thực tế", "values": [96, 108, 112, 119, 128]}, {"name": "Kế hoạch", "values": [100, 105, 110, 116, 121]}], "unit": " tỷ"}, "caption": "Đơn vị: tỷ đồng. Dữ liệu minh họa."},
+    {"id": "variance", "layout": "chart", "beat": "variance", "eyebrow": "Nguyên nhân giảm biên", "title": "Cước vận chuyển chiếm phần lớn mức giảm biên lợi nhuận", "chart": {"type": "bar", "categories": ["Cước vận chuyển", "Khuyến mãi", "Giá nguyên liệu", "Tỷ giá", "Khác"], "series": [{"name": "Điểm % biên LN", "values": [1.3, 0.4, 0.3, 0.2, 0.1]}], "highlight": 0, "unit": " đ"}, "insights": ["Cước vận chuyển đóng góp **62%** mức giảm", "Khuyến mãi đúng ngân sách", "Tỷ giá ảnh hưởng nhỏ trong quý"]},
+    {"id": "risks", "layout": "table", "beat": "risks", "eyebrow": "Rủi ro", "title": "Hai rủi ro cần theo dõi trong quý 4", "columns": ["Rủi ro", "Mức độ", "Phụ trách", "Biện pháp"], "rows": [["Cước vận chuyển tiếp tục tăng", "Cao", "Logistics", "Đàm phán lại hợp đồng"], ["Thiếu hàng mùa cao điểm", "Trung bình", "Cung ứng", "Đặt hàng sớm 3 tuần"], ["Nợ phải thu kéo dài", "Thấp", "Tài chính", "Siết hạn mức tín dụng"]]},
+    {"id": "plan", "layout": "timeline", "beat": "plan", "eyebrow": "Kế hoạch hành động", "title": "Ba mốc để khôi phục biên lợi nhuận trước Tết", "items": [{"date": "15/10", "title": "Chốt phương án", "detail": "So sánh 3 nhà vận chuyển", "state": "now"}, {"date": "15/11", "title": "Ký hợp đồng mới", "detail": "Mục tiêu giảm 8% cước", "state": "next"}, {"date": "31/12", "title": "Đánh giá", "detail": "Biên LN về 33%", "state": "next"}]},
+    {"id": "decision", "layout": "comparison", "beat": "decision", "eyebrow": "Đề xuất cần phê duyệt", "title": "Đàm phán lại hợp đồng giúp giữ biên lợi nhuận tốt hơn", "highlight": "left", "left": {"title": "A · Đàm phán lại", "tag": "Đề xuất", "bullets": ["Giảm cước ước tính 8%", "Giữ nhà vận chuyển hiện tại", "Rủi ro gián đoạn thấp"]}, "right": {"title": "B · Đổi nhà vận chuyển", "bullets": ["Giảm cước ước tính 12%", "Mất 6–8 tuần chuyển đổi", "Rủi ro trễ hàng mùa cao điểm"]}, "verdict": "Đề xuất chọn A ngay, đánh giá lại B sau mùa cao điểm."},
+    {"id": "close", "layout": "closing", "beat": "close", "eyebrow": "Thảo luận", "title": "Xin ý kiến ban giám đốc", "subtitle": "Phụ lục số liệu chi tiết gửi kèm.", "meta": ["Liên hệ: Phòng Kế hoạch"]}
+  ]
+}
+
