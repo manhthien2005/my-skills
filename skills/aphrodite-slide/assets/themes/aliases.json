@@ -1,0 +1,6 @@
+{
+  "_comment": "Legacy theme ids from v1 decks mapped to v2 themes so old deck.json files still build.",
+  "editorial-cream": "editorial-warm",
+  "swiss-contrast": "corporate-premium"
+}
+

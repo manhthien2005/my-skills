@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "presets": {
+    "none": {"name": "None", "description": "Static slides, instant cut. For printing-first decks.", "body": [], "pptx_transition": null},
+    "subtle": {"name": "Subtle", "description": "Crossfade between slides only; content appears at once.", "body": ["anim-on", "anim-subtle"],
+               "pptx_transition": "fade"},
+    "professional": {"name": "Professional (default)", "description": "Fade/rise entrances staggered in reading order; bars grow, lines and timelines draw, big numbers count up. Optional click-to-build steps.",
+                     "body": ["anim-on", "anim-professional"], "pptx_transition": "fade"},
+    "cinematic": {"name": "Cinematic", "description": "Professional plus mask reveals on headlines, slow image zoom and longer section transitions. Use sparingly: keynotes, launches.",
+                  "body": ["anim-on", "anim-cinematic"], "pptx_transition": "fade", "speed": 1.15}
+  },
+  "pptx_fallback": "PowerPoint receives native slide transitions (fade or push from the theme). Entrance effects are optional (pptx --entrances) and limited to one fade per content block. Count-up, line drawing, mask reveal and image zoom are HTML-only; PPTX shows their final state."
+}
+

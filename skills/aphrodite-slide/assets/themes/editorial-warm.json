@@ -1,0 +1,29 @@
+{
+  "id": "editorial-warm",
+  "name": "Editorial Warm",
+  "version": "1.0.0",
+  "description": "Warm editorial look ported from the author's own Slide Kit: refined serif display, warm canvas, soft colour orbs, glass cards and flat editorial columns.",
+  "scheme": "light",
+  "tags": ["editorial", "serif", "warm", "academic", "storytelling", "premium"],
+  "fonts": {"display": "Cormorant Garamond", "body": "Plus Jakarta Sans", "mono": "JetBrains Mono",
+            "display_weight": 600, "display_tracking": "-0.03em", "display_line": 0.98, "body_weight": 500, "title_case": "none"},
+  "pptx_fonts": {"display": "Cambria", "body": "Calibri", "mono": "Consolas"},
+  "colors": {
+    "bg": "#FFFAF6", "surface": "#FFFFFF", "surface_alt": "#F6EEE8", "ink": "#241D1A", "muted": "#716761",
+    "subtle": "#7A716B", "line": "#E8DCD4", "accent": "#FF684C", "accent_strong": "#E9462D", "accent_soft": "#FFE7E0",
+    "on_accent": "#FFFFFF", "accent2": "#7958CC", "dark_bg": "#16110E", "dark_surface": "#241C18", "dark_ink": "#FFF7F2",
+    "dark_muted": "#D8C7BE", "dark_accent": "#FF9C72", "positive": "#219A67", "negative": "#D64545", "warning": "#C37C10",
+    "series": ["#E9462D", "#7958CC", "#219A67", "#C37C10", "#3B82C4", "#7A716B"]
+  },
+  "type": {"display": 132, "title": 88, "title_min": 64, "lead": 34, "body": 26, "small": 22, "caption": 18,
+           "eyebrow": 21, "number": 92, "number_hero": 190},
+  "spacing": {"pad_x": 128, "pad_top": 100, "pad_bottom": 140, "gap": 32, "radius": 28},
+  "background": {"style": "orbs", "orbs": [["accent", 0.10, "top-right"], ["accent2", 0.08, "bottom-right"]], "dark_orbs": [["accent", 0.22, "top-right"], ["accent2", 0.16, "bottom-right"]]},
+  "cards": {"style": "glass"},
+  "eyebrow": {"style": "dot"},
+  "image": {"treatment": "natural", "radius": 28},
+  "icons": {"style": "soft-circle"},
+  "dark_layouts": ["cover", "section", "closing"],
+  "motion": {"easing": "cubic-bezier(.2,.7,.2,1)", "duration": 750, "stagger": 90, "distance": 26, "transition": "fade"}
+}
+

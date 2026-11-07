@@ -1,0 +1,41 @@
+{
+  "id": "academic-defense",
+  "name": "Academic Defense",
+  "name_vi": "Bảo vệ học thuật / Nghiên cứu",
+  "version": "1.0.0",
+  "description": "Thesis, capstone or research defence: problem → gap → method → results → limits → recommendations, with evidence discipline built in.",
+  "use_cases": ["academic", "research", "thesis", "defense"],
+  "tags": ["luận văn", "đồ án", "bảo vệ", "nghiên cứu", "hội đồng", "khóa luận", "thesis", "dissertation", "capstone", "research", "paper", "conference", "methodology", "findings"],
+  "best_for": "Bảo vệ khóa luận/đồ án/luận văn, báo cáo nghiên cứu khoa học, hội thảo học thuật. Hội đồng cần thấy câu hỏi nghiên cứu, phương pháp và bằng chứng rõ ràng.",
+  "avoid_for": "Pitch bán hàng, sự kiện ra mắt sản phẩm, nội dung giải trí.",
+  "audience": ["hội đồng", "giảng viên", "nhà nghiên cứu", "committee", "reviewers"],
+  "formality": "high",
+  "density": "speaker",
+  "data_intensity": "medium",
+  "default_theme": "editorial-warm",
+  "compatible_themes": ["editorial-warm", "corporate-premium", "clinical-clean"],
+  "animation": "professional",
+  "storyline": [
+    {"beat": "title", "layout": "cover", "purpose": "Tên đề tài, người thực hiện, giảng viên hướng dẫn, ngày"},
+    {"beat": "agenda", "layout": "agenda", "purpose": "4–5 phần trả lời 4–5 câu hỏi"},
+    {"beat": "context", "layout": "metrics|case", "purpose": "Bối cảnh bằng một trường hợp hoặc 2–4 số liệu có nguồn"},
+    {"beat": "gap", "layout": "statement|problem-solution", "purpose": "Khoảng trống nghiên cứu: điều chưa ai trả lời"},
+    {"beat": "questions", "layout": "learning-objectives|cards", "purpose": "Câu hỏi / mục tiêu nghiên cứu"},
+    {"beat": "method", "layout": "methodology", "purpose": "Thiết kế, mẫu, dữ liệu, quy trình phân tích"},
+    {"beat": "results", "layout": "chart|table|kpi-dashboard", "purpose": "Mỗi kết quả chính một slide, tiêu đề nói kết luận"},
+    {"beat": "discussion", "layout": "comparison|evidence-levels", "purpose": "So sánh với nghiên cứu trước, mức độ tin cậy"},
+    {"beat": "limits", "layout": "cards", "purpose": "3–4 hạn chế về phạm vi, mỗi hạn chế kèm hướng xử lý"},
+    {"beat": "conclusion", "layout": "key-takeaways", "purpose": "Kết luận và khuyến nghị"},
+    {"beat": "references", "layout": "references", "purpose": "Tài liệu tham khảo chính"},
+    {"beat": "qa", "layout": "closing", "purpose": "Cảm ơn và hỏi đáp"}
+  ],
+  "signature_layouts": ["methodology", "chart", "evidence-levels", "references"],
+  "content_rules": [
+    "Mọi số liệu trích dẫn phải có nguồn (tác giả, năm); số liệu tự đo ghi rõ là kết quả của nghiên cứu.",
+    "Tiêu đề slide kết quả nói điều dữ liệu cho thấy, không chỉ đặt tên biểu đồ.",
+    "Bắt buộc có slide hạn chế và slide tài liệu tham khảo."
+  ],
+  "preview": "preview.jpg",
+  "sample": "sample.json"
+}
+

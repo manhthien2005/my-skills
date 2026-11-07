@@ -1,0 +1,29 @@
+{
+  "id": "keynote-night",
+  "name": "Keynote Night",
+  "version": "2.0.0",
+  "description": "Dark product-keynote system: deep navy stage, luminous mint accent, soft glow and fine grid, big confident type. For technology launches and demos.",
+  "scheme": "dark",
+  "tags": ["dark", "technology", "product", "keynote", "modern", "cinematic"],
+  "fonts": {"display": "Be Vietnam Pro", "body": "Inter", "mono": "JetBrains Mono",
+            "display_weight": 700, "display_tracking": "-0.035em", "display_line": 1.04, "body_weight": 400, "title_case": "none"},
+  "pptx_fonts": {"display": "Segoe UI Semibold", "body": "Segoe UI", "mono": "Consolas"},
+  "colors": {
+    "bg": "#0B1020", "surface": "#141B31", "surface_alt": "#1C2542", "ink": "#F3F5FB", "muted": "#A9B3CE",
+    "subtle": "#7480A2", "line": "#2A3454", "accent": "#7CE0C3", "accent_strong": "#5CD3B0", "accent_soft": "#173B3A",
+    "on_accent": "#0B1020", "accent2": "#8FA8FF", "dark_bg": "#060912", "dark_surface": "#10162A", "dark_ink": "#F3F5FB",
+    "dark_muted": "#A9B3CE", "dark_accent": "#7CE0C3", "positive": "#7CE0C3", "negative": "#FF7A90", "warning": "#FFC66D",
+    "series": ["#7CE0C3", "#8FA8FF", "#FFC66D", "#FF7A90", "#C792EA", "#4F5B7E"]
+  },
+  "type": {"display": 128, "title": 76, "title_min": 58, "lead": 32, "body": 26, "small": 22, "caption": 18,
+           "eyebrow": 19, "number": 96, "number_hero": 200},
+  "spacing": {"pad_x": 128, "pad_top": 100, "pad_bottom": 140, "gap": 32, "radius": 18},
+  "background": {"style": "glow"},
+  "cards": {"style": "glass-dark"},
+  "eyebrow": {"style": "mono"},
+  "image": {"treatment": "natural", "radius": 18},
+  "icons": {"style": "outline-circle"},
+  "dark_layouts": [],
+  "motion": {"easing": "cubic-bezier(.16,1,.3,1)", "duration": 850, "stagger": 100, "distance": 30, "transition": "fade"}
+}
+

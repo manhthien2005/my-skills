@@ -1,0 +1,29 @@
+{
+  "id": "corporate-premium",
+  "name": "Corporate Premium",
+  "version": "1.0.0",
+  "description": "Restrained navy/slate system with a serif headline voice, precise hairlines and a single gold highlight. For executive, business-review and formal research audiences.",
+  "scheme": "light",
+  "tags": ["corporate", "navy", "formal", "executive", "data", "serif"],
+  "fonts": {"display": "Source Serif 4", "body": "Inter", "mono": "JetBrains Mono",
+            "display_weight": 600, "display_tracking": "-0.02em", "display_line": 1.04, "body_weight": 400, "title_case": "none"},
+  "pptx_fonts": {"display": "Cambria", "body": "Calibri", "mono": "Consolas"},
+  "colors": {
+    "bg": "#FFFFFF", "surface": "#F4F6F9", "surface_alt": "#E9EEF4", "ink": "#0F1B2D", "muted": "#4A5568",
+    "subtle": "#6B7686", "line": "#D7DEE7", "accent": "#1F4E8C", "accent_strong": "#163A6B", "accent_soft": "#E3ECF7",
+    "on_accent": "#FFFFFF", "accent2": "#AF8A37", "dark_bg": "#0E1A2B", "dark_surface": "#16263D", "dark_ink": "#F5F7FA",
+    "dark_muted": "#A9B6C8", "dark_accent": "#D9B865", "positive": "#2E7D5B", "negative": "#B83A3A", "warning": "#AF8A37",
+    "series": ["#1F4E8C", "#AF8A37", "#5B8DBE", "#798BA3", "#2E7D6B", "#C7D3E3"]
+  },
+  "type": {"display": 116, "title": 72, "title_min": 56, "lead": 32, "body": 26, "small": 22, "caption": 18,
+           "eyebrow": 19, "number": 88, "number_hero": 170},
+  "spacing": {"pad_x": 128, "pad_top": 104, "pad_bottom": 140, "gap": 32, "radius": 6},
+  "background": {"style": "rule"},
+  "cards": {"style": "outline"},
+  "eyebrow": {"style": "rule"},
+  "image": {"treatment": "natural", "radius": 4},
+  "icons": {"style": "square"},
+  "dark_layouts": ["cover", "section", "closing"],
+  "motion": {"easing": "cubic-bezier(.25,.6,.2,1)", "duration": 600, "stagger": 70, "distance": 18, "transition": "fade"}
+}
+

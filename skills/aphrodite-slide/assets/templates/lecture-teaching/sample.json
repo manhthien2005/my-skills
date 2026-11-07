@@ -1,0 +1,25 @@
+{
+  "title": "Quang hợp: cây biến ánh sáng thành thức ăn như thế nào",
+  "audience": "Học sinh lớp 10",
+  "takeaway": "Quang hợp gồm pha sáng tạo năng lượng và pha tối dùng năng lượng đó để tạo đường.",
+  "language": "vi",
+  "brand": "SINH HỌC 10 · BÀI MẪU",
+  "template": "lecture-teaching",
+  "theme": "infographic-modern",
+  "animation": "professional",
+  "density": "speaker",
+  "build": true,
+  "slides": [
+    {"id": "title", "layout": "cover", "beat": "title", "eyebrow": "Sinh học 10 · Bài 8", "title": "Quang hợp: cây **tự nấu ăn** bằng ánh sáng", "subtitle": "Bài giảng mẫu minh họa cho template giảng dạy.", "meta": ["Giáo viên: Cô Lê Thị C", "Thời lượng: 45 phút"]},
+    {"id": "objectives", "layout": "learning-objectives", "beat": "objectives", "eyebrow": "Mục tiêu", "title": "Sau bài học, em có thể", "items": [{"text": "Viết phương trình tổng quát của quang hợp", "icon": "notebook-pen"}, {"text": "Phân biệt pha sáng và pha tối", "icon": "scale"}, {"text": "Giải thích vai trò của diệp lục", "icon": "leaf"}, {"text": "Áp dụng để giải thích hiện tượng thực tế", "icon": "lightbulb"}]},
+    {"id": "hook", "layout": "statement", "beat": "hook", "eyebrow": "Câu hỏi mở đầu", "title": "Một cây bàng nặng hàng tấn, nhưng phần lớn khối lượng đó **không đến từ đất**. Vậy từ đâu?", "note": "Gợi ý: hãy nghĩ đến không khí."},
+    {"id": "concept", "layout": "definition", "beat": "concept", "eyebrow": "Khái niệm", "term": "Quang hợp", "definition": "Quá trình cây xanh dùng năng lượng ánh sáng để tổng hợp chất hữu cơ từ CO₂ và nước, đồng thời giải phóng O₂.", "example": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (cần ánh sáng và diệp lục).", "note": "Phần lớn khối lượng của cây đến từ carbon trong CO₂ của không khí."},
+    {"id": "mechanism", "layout": "diagram", "beat": "mechanism", "eyebrow": "Cơ chế", "title": "Bốn yếu tố gặp nhau trong lục lạp", "center": "Lục lạp", "nodes": [{"title": "Ánh sáng", "detail": "Cung cấp năng lượng", "icon": "zap"}, {"title": "Nước", "detail": "Hút từ rễ, tách ra O₂", "icon": "droplet"}, {"title": "CO₂", "detail": "Vào qua khí khổng", "icon": "cloud"}, {"title": "Đường", "detail": "Sản phẩm dự trữ năng lượng", "icon": "package"}]},
+    {"id": "process", "layout": "process", "beat": "example", "eyebrow": "Hai pha", "title": "Pha sáng tạo năng lượng, pha tối dùng năng lượng tạo đường", "steps": [{"title": "Hấp thụ", "detail": "Diệp lục bắt năng lượng ánh sáng", "icon": "zap"}, {"title": "Phân li nước", "detail": "Giải phóng O₂ ra ngoài", "icon": "droplet"}, {"title": "Tạo ATP", "detail": "Tích năng lượng hóa học", "icon": "activity"}, {"title": "Cố định CO₂", "detail": "Chu trình Calvin tạo đường", "icon": "package"}]},
+    {"id": "contrast", "layout": "comparison", "beat": "contrast", "eyebrow": "Phân biệt", "title": "Pha sáng và pha tối khác nhau ở nơi diễn ra và điều kiện", "left": {"title": "Pha sáng", "bullets": ["Diễn ra ở màng thylakoid", "Cần ánh sáng trực tiếp", "Tạo ATP, NADPH và O₂"]}, "right": {"title": "Pha tối", "bullets": ["Diễn ra ở chất nền stroma", "Không cần ánh sáng trực tiếp", "Dùng ATP để tạo đường"]}, "verdict": "\"Pha tối\" vẫn xảy ra ban ngày: tên gọi chỉ nói nó không cần ánh sáng trực tiếp."},
+    {"id": "check", "layout": "statement", "beat": "check", "eyebrow": "Kiểm tra nhanh", "title": "Nếu đặt cây trong phòng kín không có CO₂, pha nào sẽ dừng trước?", "subtitle": "Thảo luận theo cặp trong 1 phút."},
+    {"id": "recap", "layout": "key-takeaways", "beat": "recap", "eyebrow": "Tóm tắt", "title": "Ba điều cần nhớ", "bullets": ["Quang hợp biến CO₂ và nước thành đường nhờ năng lượng ánh sáng", "Pha sáng tạo năng lượng, pha tối dùng năng lượng đó", "Khối lượng của cây chủ yếu đến từ không khí"]},
+    {"id": "practice", "layout": "closing", "beat": "practice", "eyebrow": "Bài tập về nhà", "title": "Thí nghiệm lá khoai lang", "subtitle": "Che một nửa lá bằng giấy bạc trong 2 ngày, thử iốt và ghi lại kết quả.", "meta": ["Nộp: tiết học sau", "Đọc thêm: SGK trang 42–45"]}
+  ]
+}
+

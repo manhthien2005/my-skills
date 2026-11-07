@@ -1,0 +1,29 @@
+{
+  "id": "clinical-clean",
+  "name": "Clinical Clean",
+  "version": "1.0.0",
+  "description": "High-legibility medical system: white canvas, calm teal, strict hierarchy, visible sources and caution colours reserved for clinical warnings.",
+  "scheme": "light",
+  "tags": ["medical", "healthcare", "clean", "teal", "accessible", "evidence"],
+  "fonts": {"display": "Inter", "body": "Inter", "mono": "JetBrains Mono",
+            "display_weight": 700, "display_tracking": "-0.03em", "display_line": 1.06, "body_weight": 400, "title_case": "none"},
+  "pptx_fonts": {"display": "Calibri", "body": "Calibri", "mono": "Consolas"},
+  "colors": {
+    "bg": "#FFFFFF", "surface": "#F1F7F7", "surface_alt": "#E3EFEF", "ink": "#10292E", "muted": "#47605F",
+    "subtle": "#647779", "line": "#D3E3E3", "accent": "#0E8C8C", "accent_strong": "#0A6B6B", "accent_soft": "#DDF1F1",
+    "on_accent": "#FFFFFF", "accent2": "#3E7CB1", "dark_bg": "#0A2E33", "dark_surface": "#12424A", "dark_ink": "#F2FAFA",
+    "dark_muted": "#A6C7C9", "dark_accent": "#6FD3CF", "positive": "#2E8B57", "negative": "#C2413B", "warning": "#C7762B",
+    "series": ["#0E8C8C", "#3E7CB1", "#C7762B", "#7A5EA8", "#549854", "#9DB7B9"]
+  },
+  "type": {"display": 108, "title": 66, "title_min": 50, "lead": 30, "body": 25, "small": 22, "caption": 18,
+           "eyebrow": 19, "number": 84, "number_hero": 160},
+  "spacing": {"pad_x": 120, "pad_top": 96, "pad_bottom": 140, "gap": 28, "radius": 12},
+  "background": {"style": "corner"},
+  "cards": {"style": "tint"},
+  "eyebrow": {"style": "plain"},
+  "image": {"treatment": "natural", "radius": 12},
+  "icons": {"style": "soft-circle"},
+  "dark_layouts": ["cover", "section"],
+  "motion": {"easing": "cubic-bezier(.25,.6,.2,1)", "duration": 550, "stagger": 70, "distance": 16, "transition": "fade"}
+}
+

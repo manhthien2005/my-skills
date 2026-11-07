@@ -1,0 +1,27 @@
+{
+  "title": "Ảnh hưởng của giấc ngủ đến kết quả học tập của sinh viên năm nhất",
+  "audience": "Hội đồng chấm khóa luận",
+  "takeaway": "Ngủ đủ 7 giờ liên quan đến điểm trung bình cao hơn, nhưng nghiên cứu cắt ngang chưa chứng minh quan hệ nhân quả.",
+  "language": "vi",
+  "brand": "KHÓA LUẬN TỐT NGHIỆP · MẪU",
+  "template": "academic-defense",
+  "theme": "editorial-warm",
+  "animation": "professional",
+  "density": "speaker",
+  "demo": true,
+  "slides": [
+    {"id": "title", "layout": "cover", "beat": "title", "eyebrow": "Khóa luận tốt nghiệp · 2026", "title": "Giấc ngủ và **kết quả học tập** của sinh viên năm nhất", "subtitle": "Nghiên cứu cắt ngang trên 412 sinh viên tại một trường đại học (dữ liệu minh họa).", "meta": ["Sinh viên: Nguyễn Văn A", "Giảng viên hướng dẫn: TS. Trần Thị B", "Ngày bảo vệ: 15/12/2026"]},
+    {"id": "agenda", "layout": "agenda", "beat": "agenda", "eyebrow": "Nội dung", "title": "Bốn phần trả lời bốn câu hỏi của hội đồng", "items": [{"title": "Vì sao nghiên cứu", "detail": "Bối cảnh và khoảng trống"}, {"title": "Nghiên cứu thế nào", "detail": "Thiết kế, mẫu và phân tích"}, {"title": "Tìm thấy gì", "detail": "Ba kết quả chính"}, {"title": "Ý nghĩa và giới hạn", "detail": "Khuyến nghị cho nhà trường"}]},
+    {"id": "context", "layout": "metrics", "beat": "context", "eyebrow": "Bối cảnh", "title": "Phần lớn sinh viên năm nhất ngủ dưới mức khuyến nghị", "items": [{"value": "62%", "label": "ngủ dưới 7 giờ", "detail": "trong tuần học"}, {"value": "1,3 giờ", "label": "chênh lệch", "detail": "giữa ngày học và cuối tuần"}, {"value": "41%", "label": "dùng điện thoại", "detail": "sau 0 giờ đêm"}], "notes": "Số liệu minh họa cho template; khi dùng thật phải thay bằng kết quả khảo sát và ghi nguồn."},
+    {"id": "gap", "layout": "statement", "beat": "gap", "eyebrow": "Khoảng trống nghiên cứu", "title": "Ít nghiên cứu trong nước đo **cả thời lượng lẫn độ đều đặn** của giấc ngủ cùng lúc.", "subtitle": "Các khảo sát trước thường chỉ hỏi số giờ ngủ trung bình."},
+    {"id": "method", "layout": "methodology", "beat": "method", "eyebrow": "Phương pháp", "title": "Khảo sát cắt ngang kết hợp nhật ký ngủ 14 ngày", "facts": [{"value": "412", "label": "sinh viên năm nhất"}, {"value": "14 ngày", "label": "nhật ký ngủ"}, {"value": "4", "label": "khoa tham gia"}], "steps": [{"title": "Chọn mẫu", "detail": "Ngẫu nhiên phân tầng theo khoa"}, {"title": "Thu thập", "detail": "Bảng hỏi PSQI và nhật ký ngủ"}, {"title": "Phân tích", "detail": "Hồi quy tuyến tính đa biến, kiểm soát giới và khoa"}]},
+    {"id": "result-1", "layout": "chart", "beat": "results", "eyebrow": "Kết quả 1", "title": "Điểm trung bình cao nhất ở nhóm ngủ 7–8 giờ", "chart": {"type": "column", "categories": ["< 6 giờ", "6–7 giờ", "7–8 giờ", "> 8 giờ"], "series": [{"name": "GPA trung bình", "values": [2.71, 2.94, 3.21, 3.05]}], "highlight": 2}, "caption": "GPA thang 4, n = 412. Dữ liệu minh họa."},
+    {"id": "result-2", "layout": "chart", "beat": "results", "eyebrow": "Kết quả 2", "title": "Ngủ thất thường gắn với điểm thấp hơn, kể cả khi đủ giờ", "chart": {"type": "line", "categories": ["Rất đều", "Đều", "Trung bình", "Thất thường", "Rất thất thường"], "series": [{"name": "GPA", "values": [3.28, 3.15, 3.02, 2.86, 2.70]}]}, "insights": ["Mỗi bậc thất thường giảm khoảng **0,14** điểm GPA", "Hiệu ứng còn sau khi kiểm soát số giờ ngủ", "Chưa loại trừ được yếu tố làm thêm buổi tối"]},
+    {"id": "evidence", "layout": "evidence-levels", "beat": "discussion", "eyebrow": "Mức độ tin cậy", "title": "Kết quả là tương quan, chưa phải nhân quả", "levels": [{"label": "Thử nghiệm can thiệp", "detail": "Chưa thực hiện trong nghiên cứu này"}, {"label": "Nghiên cứu theo dõi dọc", "detail": "Đề xuất cho giai đoạn tiếp theo"}, {"label": "Cắt ngang + nhật ký", "detail": "Mức bằng chứng của khóa luận"}, {"label": "Tự báo cáo đơn thuần", "detail": "Các khảo sát trước đây"}]},
+    {"id": "limits", "layout": "cards", "beat": "limits", "eyebrow": "Hạn chế", "title": "Ba giới hạn về phạm vi và hướng xử lý", "items": [{"title": "Một trường", "body": "Mở rộng sang ít nhất hai trường khác khối ngành."}, {"title": "Tự báo cáo", "body": "Bổ sung thiết bị đeo đo giấc ngủ cho một nhóm con."}, {"title": "Cắt ngang", "body": "Theo dõi cùng nhóm sinh viên qua hai học kỳ."}]},
+    {"id": "conclusion", "layout": "key-takeaways", "beat": "conclusion", "eyebrow": "Kết luận", "title": "Ba điều hội đồng có thể mang về", "bullets": ["Ngủ 7–8 giờ liên quan đến GPA cao nhất trong mẫu", "Độ đều đặn của giấc ngủ quan trọng không kém số giờ", "Nhà trường có thể thử nghiệm lịch học bắt đầu muộn hơn cho năm nhất"]},
+    {"id": "refs", "layout": "references", "beat": "references", "title": "Tài liệu tham khảo", "items": ["Buysse, D. J. et al. (1989). The Pittsburgh Sleep Quality Index. Psychiatry Research, 28(2), 193–213.", "Tài liệu minh họa 2 (thay bằng nguồn thật khi sử dụng).", "Tài liệu minh họa 3 (thay bằng nguồn thật khi sử dụng)."]},
+    {"id": "qa", "layout": "closing", "beat": "qa", "eyebrow": "Hỏi đáp", "title": "Em xin cảm ơn hội đồng", "subtitle": "Rất mong nhận được câu hỏi và góp ý.", "meta": ["Email: sinhvien@example.edu.vn"]}
+  ]
+}
+

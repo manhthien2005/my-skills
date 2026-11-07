@@ -1,0 +1,40 @@
+{
+  "id": "lecture-teaching",
+  "name": "Lecture & Teaching",
+  "name_vi": "Bài giảng / Đào tạo",
+  "version": "1.0.0",
+  "description": "Lessons and training: objectives → concept → mechanism diagram → worked example → comparison → check question → recap → exercise. Built for clear information hierarchy and step-by-step builds.",
+  "use_cases": ["education", "teaching", "training", "workshop"],
+  "tags": ["bài giảng", "giảng dạy", "lớp học", "học sinh", "sinh viên", "đào tạo", "tập huấn", "khóa học", "môn học", "lecture", "lesson", "course", "training", "workshop", "tutorial", "class", "students"],
+  "best_for": "Bài giảng đại học/phổ thông, đào tạo nội bộ, workshop. Người học cần hiểu khái niệm, thấy cơ chế bằng sơ đồ và tự kiểm tra.",
+  "avoid_for": "Báo cáo điều hành ngắn, pitch gọi vốn.",
+  "audience": ["học sinh", "sinh viên", "học viên", "nhân viên mới", "students", "learners", "trainees"],
+  "formality": "medium",
+  "density": "speaker",
+  "data_intensity": "low",
+  "default_theme": "infographic-modern",
+  "compatible_themes": ["infographic-modern", "editorial-warm", "clinical-clean"],
+  "animation": "professional",
+  "build": true,
+  "storyline": [
+    {"beat": "title", "layout": "cover", "purpose": "Tên bài, môn học, giảng viên"},
+    {"beat": "objectives", "layout": "learning-objectives", "purpose": "3–4 mục tiêu bắt đầu bằng động từ đo được"},
+    {"beat": "hook", "layout": "statement|case", "purpose": "Một câu hỏi hoặc tình huống gần gũi"},
+    {"beat": "concept", "layout": "definition", "purpose": "Khái niệm cốt lõi, ví dụ, lưu ý"},
+    {"beat": "mechanism", "layout": "diagram|process", "purpose": "Cơ chế / quy trình bằng sơ đồ"},
+    {"beat": "example", "layout": "cards|image-split", "purpose": "Ví dụ có lời giải từng bước"},
+    {"beat": "contrast", "layout": "comparison|table", "purpose": "Phân biệt khái niệm dễ nhầm"},
+    {"beat": "check", "layout": "statement", "purpose": "Câu hỏi kiểm tra nhanh"},
+    {"beat": "recap", "layout": "key-takeaways", "purpose": "Tóm tắt 3 ý"},
+    {"beat": "practice", "layout": "closing", "purpose": "Bài tập / đọc thêm"}
+  ],
+  "signature_layouts": ["learning-objectives", "definition", "diagram", "process"],
+  "content_rules": [
+    "Mục tiêu học tập bắt đầu bằng động từ quan sát được (giải thích, so sánh, tính, áp dụng).",
+    "Mỗi slide một khái niệm; công thức và chứng minh dài đưa vào ghi chú hoặc tài liệu phát.",
+    "Dùng build từng bước cho quy trình để người học theo kịp."
+  ],
+  "preview": "preview.jpg",
+  "sample": "sample.json"
+}
+
